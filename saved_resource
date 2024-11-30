@@ -1,0 +1,5553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Lucky Jet официальный сайт игры</title>
+<meta name="description" content="Lucky Jet официальный сайт игры">
+<meta name="keywords" content="джет лак, лаки джет игра, лаки джет +на деньги, лаки джет играть, лаки джет game, лаки джет lucky, лаки джет lucky jet, джет лак luckyjets game, игра лаки джет +на деньги, лаки джет онлайн, lucky jet, ucky jet игра, lucky jet +на деньги, lucky jet играть">
+<link rel="search" type="application/opensearchdescription+xml" href="https://play-jet.pro/index.php?do=opensearch" title="Lucky Jet официальный сайт игры">
+<link rel="canonical" href="https://play-jet.pro//">
+<link rel="alternate" type="application/rss+xml" title="" href="https://play-jet.pro//rss.xml">
+<link href="/engine/editor/css/default.css?v=b77e1" rel="stylesheet" type="text/css">
+<script src="/engine/classes/js/jquery.js?v=b77e1"></script>
+<script src="/engine/classes/js/jqueryui.js?v=b77e1" defer></script>
+<script src="/engine/classes/js/dle_js.js?v=b77e1" defer></script>
+<meta name="HandheldFriendly" content="true">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=0, initial-scale=1.0, maximum-scale=1.0, width=device-width"> 
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<link rel="shortcut icon" href="/templates/Default/images/favicon.ico">
+<link rel="apple-touch-icon" href="/templates/Default/images/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/templates/Default/images/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/templates/Default/images/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/templates/Default/images/touch-icon-ipad-retina.png">
+
+<link rel="stylesheet" href="/templates/Default/css/bootstrap.min.css">
+<link rel="stylesheet" href="/templates/Default/css/main.css">
+<link rel="stylesheet" href="/templates/Default/css/app.css">
+<link rel="stylesheet" href="/templates/Default/css/media.css">
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="/templates/Default/css/fontawesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/templates/Default/css/jquery.emojipicker.css">   
+<link rel="stylesheet" type="text/css" href="/templates/Default/css/jquery.emojipicker.g.css">
+
+
+</head>
+<body>
+
+
+  
+  
+
+
+
+<div id="loader">
+<div id="loader_img">
+<img src="/templates/Default/images/laoding.svg" alt="Lucky Jet">
+</div>
+<div class="laoding-text">
+ОЖИДАНИЕ ЗАГРУЗКИ
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="error">
+
+</div>
+
+
+<input type="hidden" id="us_mail" value="">
+
+
+
+
+
+<div class="modal fade" id="payin_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered wallet-modal-dialog">
+<div class="modal-content wallet-modal-content">
+
+
+
+<div class="modal-body p-0">
+
+<div class="wallet__jet df">
+
+
+
+<div class="wallet__jet-left">
+
+
+
+<div class="wallet__jet-tabs">
+
+
+<div class="wallet__jet-tabs-item payin_tabs">
+RUB
+</div>
+
+<div class="wallet__jet-tabs-item payin_tabs">
+USD
+</div>
+
+<div class="wallet__jet-tabs-item payin_tabs">
+KZT
+</div>
+
+<div class="wallet__jet-tabs-item payin_tabs">
+UAH
+</div>
+
+<div class="wallet__jet-tabs-item payin_tabs">
+UZS
+</div>
+
+</div>
+
+<div class="wallet__jet-content">
+<div class="wallet__jet-blog payin_blog">
+<div class="wallet__jet-coin">
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/criptocurrency.png" alt="38" title="criptocurrency.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Crypto Currency</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/Mir.png" alt="45" title="Mir.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+МИР RUB</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/spb.png" alt="47" title="spb.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+СБП RUB</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/OnlineBank.png" alt="46" title="OnlineBank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Онлайн банк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/garanteks.png" alt="57" title="garanteks.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Garantex</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/YouMoney.png" alt="48" title="YouMoney.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ЮMoney RUB</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/MasterCard.png" alt="44" title="MasterCard.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+MasterCard RUB</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/visa.png" alt="43" title="visa.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA RUB</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/MasterCard.png" alt="2" title="MasterCard.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+MasterCard PAY</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/card.png" alt="4" title="card.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+CARD PAY</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/spb.png" alt="3" title="spb.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+SBP PAY</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/visa.png" alt="1" title="visa.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA PAY</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/sberbank.png" alt="5" title="sberbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Сбербанк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/Mir.png" alt="6" title="Mir.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+MIR</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/tinkofbank.png" alt="7" title="tinkofbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Тинькофф</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/spb.png" alt="8" title="spb.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+SBP</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/YouMoney.png" alt="9" title="YouMoney.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ЮMoney</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/alfabank.png" alt="10" title="alfabank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Альфа-Банк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/ozonbank.png" alt="11" title="ozonbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+OZON Банк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/vtb24.png" alt="12" title="vtb24.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ВТБ 24</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/pochtabank.png" alt="13" title="pochtabank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Почта банк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/rosbank.png" alt="14" title="rosbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Росбанк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item f-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img f-coin-img">
+<img src="/templates/Default/images/pay/mtsbank.png" alt="15" title="mtsbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+МТС-банк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class="wallet__jet-blog payin_blog">
+<div class="wallet__jet-coin">
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/criptocurrency.png" alt="39" title="criptocurrency.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Crypto Currency</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/payeer.png" alt="16" title="payeer.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+PAYEER</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/advcash.png" alt="17" title="advcash.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ADVCASH</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/epaycore.png" alt="18" title="epaycore.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+EPAYCORE</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/visa.png" alt="19" title="visa.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/MasterCard.png" alt="20" title="MasterCard.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+MasterCard</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/PerfectMoney.png" alt="49" title="PerfectMoney.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Perfect Money</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/nixmoney.png" alt="50" title="nixmoney.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Nix Money</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/applepay.png" alt="51" title="applepay.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+APPLE PAY</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item c-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img c-coin-img">
+<img src="/templates/Default/images/pay/googlepey.png" alt="52" title="googlepey.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+GOOGLE PAY</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="wallet__jet-blog payin_blog">
+<div class="wallet__jet-coin">
+
+
+
+<div class="wallet__jet-coin-item k-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img k-coin-img">
+<img src="/templates/Default/images/pay/criptocurrency.png" alt="40" title="criptocurrency.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Crypto Currency</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item k-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img k-coin-img">
+<img src="/templates/Default/images/pay/card.png" alt="21" title="card.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+CARD KZT</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item k-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img k-coin-img">
+<img src="/templates/Default/images/pay/kaspi.png" alt="22" title="kaspi.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Kaspii Bank</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item k-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img k-coin-img">
+<img src="/templates/Default/images/pay/sber.png" alt="23" title="sber.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+SBER KZ</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item k-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img k-coin-img">
+<img src="/templates/Default/images/pay/jusan.png" alt="24" title="jusan.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Jusan Bank</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class="wallet__jet-blog payin_blog">
+<div class="wallet__jet-coin">
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/criptocurrency.png" alt="41" title="criptocurrency.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Crypto Currency</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/visa.png" alt="25" title="visa.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/MasterCard.png" alt="26" title="MasterCard.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+MasterCard</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/pumb.png" alt="27" title="pumb.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ПУМБ</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/izibank.png" alt="28" title="izibank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+izibank</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/otpbank.png" alt="29" title="otpbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+OTP</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/sportbank.png" alt="30" title="sportbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Sportbank</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/oshadbank.png" alt="31" title="oshadbank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Ощадбанк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/concordbnk.png" alt="32" title="concordbnk.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Конкорд банк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/revolut.png" alt="33" title="revolut.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Revolut</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/privatebank.png" alt="34" title="privatebank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ПриватБанк</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item u-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img u-coin-img">
+<img src="/templates/Default/images/pay/monobank.png" alt="35" title="monobank.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Monobank</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="wallet__jet-blog payin_blog">
+<div class="wallet__jet-coin">
+
+
+
+<div class="wallet__jet-coin-item uz-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img uz-coin-img">
+<img src="/templates/Default/images/pay/criptocurrency.png" alt="42" title="criptocurrency.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Crypto Currency</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item uz-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img uz-coin-img">
+<img src="/templates/Default/images/pay/uzcard.png" alt="36" title="uzcard.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Uzcard</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item uz-coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img uz-coin-img">
+<img src="/templates/Default/images/pay/humo.png" alt="37" title="humo.png" >
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Humo</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+</div>
+<div class="wallet__jet-right">
+<div class="wallet__jet-header">
+<div class="wallet__jet-title">
+Пополнение    
+</div>
+<div class="wallet__jet-close_modal" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+<div class="wallet__jet-main">
+
+<div class="wallet__jet-main-blog payin_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog_top">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name f-blog-img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="number" name="rub" id="f_payin__amount" placeholder="Введите сумму" maxlength="6" min="1000" max="50000" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+
+</div>
+
+
+
+</div>
+
+</div>
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="f_coin__id" name="id">
+<input type="submit" value="Пополнить" class="wallet__jet-blog-btn" name="payrub">
+</div>
+</div>  
+</form>
+
+</div>
+
+
+
+
+<div class="wallet__jet-main-blog payin_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog_top">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name c-blog-img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="number" name="rub" id="c_payin__amount" placeholder="Введите сумму" maxlength="6" min="5000" max="50000" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+
+</div>
+</div>
+
+
+
+</div>
+
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="c_coin__id" name="id">
+<input type="submit" name="payusd" value="Пополнить" class="wallet__jet-blog-btn">
+</div>
+</div>  
+</form>
+
+</div>
+
+
+
+
+
+
+<div class="wallet__jet-main-blog payin_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog_top">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name k-blog-img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="number" name="rub" id="k_payin__amount" placeholder="Введите сумму" maxlength="6" min="2000" max="50000" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+
+</div>
+</div>
+
+
+
+</div>
+
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="k_coin__id" name="id">
+<input type="submit" name="paykzt" value="Пополнить" class="wallet__jet-blog-btn">
+</div>
+</div>  
+</form>
+
+</div>
+
+
+
+
+
+<div class="wallet__jet-main-blog payin_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog_top">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name u-blog-img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="number" name="rub" id="u_payin__amount" placeholder="Введите сумму" maxlength="6" min="1000" max="50000" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+
+</div>
+</div>
+
+
+
+</div>
+
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="u_coin__id" name="id">
+<input type="submit" name="payuah" value="Пополнить" class="wallet__jet-blog-btn">
+</div>
+</div>  
+</form>
+
+</div>
+
+
+
+<div class="wallet__jet-main-blog payin_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog_top">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name uz-blog-img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="number" name="rub" id="uz_payin__amount" placeholder="Введите сумму" maxlength="6" min="1000" max="50000" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+</div>
+</div>
+
+
+
+</div>
+
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="uz_coin__id" name="id">
+<input type="submit" name="payuzs" value="Пополнить" class="wallet__jet-blog-btn">
+</div>
+</div>  
+</form>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="payout_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered wallet-modal-dialog">
+<div class="modal-content wallet-modal-content">
+
+
+
+<div class="modal-body p-0">
+
+<div class="wallet__jet df">
+
+
+
+<div class="wallet__jet-left">
+
+
+
+<div class="wallet__jet-tabs">
+<div class="wallet__jet-tabs-item payout_tabs">
+ФИАТ
+</div>
+<div class="wallet__jet-tabs-item payout_tabs">
+КРИПТОВАЛЮТА
+</div>
+</div>
+
+<div class="wallet__jet-content">
+<div class="wallet__jet-blog payout_blog">
+<div class="wallet__jet-coin">
+
+
+
+<div class="wallet__jet-coin-item payout_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_f_coin_img">
+<img src="/templates/Default/images/pay/visa.png" alt="16" title="visa.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item payout_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_f_coin_img">
+<img src="/templates/Default/images/pay/payeer.png" alt="17" title="payeer.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+PAYEER</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item payout_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_f_coin_img">
+<img src="/templates/Default/images/pay/spb.png" alt="19" title="spb.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+SBP</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item payout_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_f_coin_img">
+<img src="/templates/Default/images/pay/Mir.png" alt="20" title="Mir.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+MIR</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item payout_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_f_coin_img">
+<img src="/templates/Default/images/pay/worldcard.png" alt="21" title="worldcard.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA / MasterCard KZT</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item payout_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_f_coin_img">
+<img src="/templates/Default/images/pay/fcwaalet.png" alt="22" title="fcwaalet.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+FK WALLET RUB</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class="wallet__jet-blog payout_blog">
+<div class="wallet__jet-coin">
+
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/Bitcoin.png" alt="1" title="Bitcoin.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Bitcoin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/Etherium.png" alt="2" title="Etherium.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Ethereum</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/LiteCoin.png" alt="3" title="LiteCoin.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Litecoin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/DogeCoin.png" alt="4" title="DogeCoin.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Dogecoin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/Dash.png" alt="5" title="Dash.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Dash</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/BitCash.png" alt="6" title="BitCash.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Bitcoin Cash</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/Zcash.png" alt="7" title="Zcash.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ZCash</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/Ripple.png" alt="8" title="Ripple.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Ripple</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/tron.png" alt="9" title="tron.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+TRON</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/xlm.png" alt="10" title="xlm.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Stellar</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/bnb.png" alt="11" title="bnb.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Binance Coin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/USDT_TRC20.png" alt="12" title="USDT_TRC20.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+USDT_TRC20</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/USDT_BEP20.png" alt="13" title="USDT_BEP20.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+USDT_BEP20</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item payout_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img payout_c_coin_img">
+<img src="/templates/Default/images/pay/EtheriumClassic.png" alt="14" title="EtheriumClassic.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+EthereumClassic</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="wallet__jet-right">
+<div class="wallet__jet-header">
+<div class="wallet__jet-title">
+Вывести    
+</div>
+<div class="wallet__jet-close_modal" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+<div class="wallet__jet-main">
+
+<div class="wallet__jet-main-blog payout_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name payout_f_blog_img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="number" id="f_payout__amount" placeholder="Введите сумму" name="ammount" maxlength="6" min="500" max="60000" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+</div>
+</div>
+<div class="wallet__jet-blog-col">
+<div class="wallet__jet-blog-item payout_f_item">
+500 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_f_item">
+1000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_f_item">
+2 000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_f_item">
+3 000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_f_item">
+4 000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_f_item">
+5 000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_f_item">
+10 000 ₽ 
+</div>
+</div>
+<div class="wallet__jet_user_w">
+<div class="wallet__jet_user_w_title">
+Реквизиты вывода
+</div>
+<div class="wallet__jet_user_w_number" id="fwallet">
+У вас нет реквизита для вывода в данной валюте. Пожалуйста добавьте реквизит</div>
+<div class="wallet__jet_user_w_modal" data-bs-target="#userinfo_modal" data-bs-toggle="modal" data-bs-dismiss="modal" aria-label="Close">
+Добавить реквизит
+</div>
+</div>
+<div class="wallet__jet_info">
+<div class="wallet__jet_info_item">
+<div class="wallet__jet_info_title">
+К оплате
+</div> 
+<div class="wallet__jet_info_coin">
+<span id="fout_sum">0.00</span>
+<img class="wallet__jet_info_img" alt="Как вывести средства с игры лаки джет" src="/templates/Default/images/payin/rub.png">
+</div>
+</div>
+<div class="wallet__jet_info_item">
+<div class="wallet__jet_info_title">
+Комиссия
+</div> 
+<div class="wallet__jet_info_coin">
+<span id="fout_com">0.00</span>
+<img class="wallet__jet_info_img" alt="Какая комиссия взымается ври выводе средств с игры лаки джет" src="/templates/Default/images/payin/rub.png">
+</div>
+</div>
+<div class="wallet__jet_info_item">
+<div class="wallet__jet_info_title">
+Итого:
+</div> 
+<div class="wallet__jet_info_coin">
+<span id="fout_total">0.00</span>
+<img class="wallet__jet_info_img" alt="Выплаты с игры лики джет" src="/templates/Default/images/payin/rub.png">
+</div>
+</div>
+</div>
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="payout_f_coin__id" name="coin">
+<input type="submit" value="Вывести" class="wallet__jet-blog-btn" name="fpayout">
+</div>
+</div>  
+</form>
+
+</div>
+
+
+
+
+
+
+
+<div class="wallet__jet-main-blog payout_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name payout_c_blog_img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="number" id="c_payout__amount" placeholder="Введите сумму" name="ammount" maxlength="7" min="800" max="1000000" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+</div>
+</div>
+<div class="wallet__jet-blog-col">
+<div class="wallet__jet-blog-item payout_c_item">
+1000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_c_item">
+2000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_c_item">
+5000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_c_item">
+10000 ₽ 
+</div>
+<div class="wallet__jet-blog-item payout_c_item">
+20000 ₽ 
+</div>
+</div>
+<div class="wallet__jet_user_w">
+<div class="wallet__jet_user_w_title">
+Реквизиты вывода
+</div>
+<div class="wallet__jet_user_w_number" id="cwallet">
+У вас нет реквизита для вывода в данной валюте. Пожалуйста добавьте реквизит</div>
+<div class="wallet__jet_user_w_modal" data-bs-target="#userinfo_modal" data-bs-toggle="modal" data-bs-dismiss="modal" aria-label="Close">
+Добавить реквизит
+</div>
+</div>
+<div class="wallet__jet_info">
+<div class="wallet__jet_info_item">
+<div class="wallet__jet_info_title">
+К оплате
+</div> 
+<div class="wallet__jet_info_coin">
+<span id="c_out_sum">0.00</span>
+<img class="wallet__jet_info_img payout_img_c" alt="Ежедневные выводы в игре лаки джет">
+</div>
+</div>
+<div class="wallet__jet_info_item">
+<div class="wallet__jet_info_title">
+Комиссия
+</div> 
+<div class="wallet__jet_info_coin">
+<span id="c_out_com">0.00</span>
+<img class="wallet__jet_info_img payout_img_c" alt="Моментальные выплаты с игры лаки джет">
+</div>
+</div>
+<div class="wallet__jet_info_item">
+<div class="wallet__jet_info_title">
+Итого:
+</div> 
+<div class="wallet__jet_info_coin">
+<span id="c_out_total">0.00</span>
+<img class="wallet__jet_info_img payout_img_c" alt="Способы вывода средств с игры lucky jet">
+</div>
+</div>
+</div>
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="payout_c_coin__id" name="coin">
+<input type="submit" value="Вывести" class="wallet__jet-blog-btn" name="cpayout">
+</div>
+</div>  
+</form>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="userinfo_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered userinfo_modal_dialog">
+<div class="modal-content userinfo_modal_content">
+
+<div class="userinfo_modal_header">
+<div class="userinfo_modal_header_title">
+Личный кабинет
+</div>
+<div class="userinfo_modal_header_close" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+
+<div class="userinfo_modal_body">
+<div class="userinfo_modal_tabs">
+
+<div class="userinfo_modal_tabs_item">
+<i class="fa-duotone fa-wallet"></i>
+Мои Реквизиты
+</div>
+<div class="userinfo_modal_tabs_item">
+<i class="fa-duotone fa-lock-keyhole"></i>
+Сменить пароль и Удалениe аккаунта
+</div>
+</div>
+<div class="userinfo_modal_content">
+
+<div class="userinfo_blog">
+
+
+
+
+<div class="requisites__jet df">
+<div class="requisites__jet-left">
+
+<div class="wallet__jet-header p-0">
+<div class="wallet__jet-title">
+Реквизиты    
+</div>
+
+</div>
+
+<div class="wallet__jet-tabs p-0 mt-2">
+<div class="wallet__jet-tabs-item requisites_tabs">
+ФИАТ
+</div>
+<div class="wallet__jet-tabs-item requisites_tabs">
+КРИПТОВАЛЮТА
+</div>
+</div>
+
+<div class="wallet__jet-content">
+<div class="wallet__jet-blog requisites_blog">
+<div class="wallet__jet-coin p-0">
+
+
+
+<div class="wallet__jet-coin-item requisites_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_f_coin_img">
+<img src="/templates/Default/images/pay/visa.png" alt="16" title="visa.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item requisites_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_f_coin_img">
+<img src="/templates/Default/images/pay/payeer.png" alt="17" title="payeer.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+PAYEER</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item requisites_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_f_coin_img">
+<img src="/templates/Default/images/pay/spb.png" alt="19" title="spb.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+SBP</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item requisites_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_f_coin_img">
+<img src="/templates/Default/images/pay/Mir.png" alt="20" title="Mir.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+MIR</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item requisites_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_f_coin_img">
+<img src="/templates/Default/images/pay/worldcard.png" alt="21" title="worldcard.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+VISA / MasterCard KZT</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="wallet__jet-coin-item requisites_f_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_f_coin_img">
+<img src="/templates/Default/images/pay/fcwaalet.png" alt="22" title="fcwaalet.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+FK WALLET RUB</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div class="wallet__jet-blog requisites_blog">
+<div class="wallet__jet-coin p-0">
+
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/Bitcoin.png" alt="1" title="Bitcoin.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Bitcoin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/Etherium.png" alt="2" title="Etherium.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Ethereum</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/LiteCoin.png" alt="3" title="LiteCoin.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Litecoin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/DogeCoin.png" alt="4" title="DogeCoin.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Dogecoin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/Dash.png" alt="5" title="Dash.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Dash</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/BitCash.png" alt="6" title="BitCash.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Bitcoin Cash</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/Zcash.png" alt="7" title="Zcash.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+ZCash</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/Ripple.png" alt="8" title="Ripple.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Ripple</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/tron.png" alt="9" title="tron.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+TRON</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/xlm.png" alt="10" title="xlm.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Stellar</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/bnb.png" alt="11" title="bnb.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+Binance Coin</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/USDT_TRC20.png" alt="12" title="USDT_TRC20.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+USDT_TRC20</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/USDT_BEP20.png" alt="13" title="USDT_BEP20.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+USDT_BEP20</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="wallet__jet-coin-item requisites_c_coin">
+<div class="wallet__jet-coin-content">
+<div class="wallet__jet-coin-img requisites_c_coin_img">
+<img src="/templates/Default/images/pay/EtheriumClassic.png" alt="14" title="EtheriumClassic.png">
+</div>
+<div class="wallet__jet-coin-bottom">
+<div class="wallet__jet-coin-name">
+EthereumClassic</div>
+<div class="wallet__jet-coin-check">
+<div class="wallet__jet-coin-icon">
+<i class="fa-duotone fa-check"></i>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="requisites__jet-right">
+
+<div class="wallet__jet-main">
+
+<div class="wallet__jet-main-blog requisites_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name requisites_f_blog_img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="text" maxlength="50" id="f_requisites__amount" name="wallet" placeholder="Введите номер карты / номет счета" require>
+</div>
+</div>
+<div id="error_requisites_f"></div>
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="requisites_f_coin__id" name="fiatreq">
+<input type="submit" value="Сохранить" class="wallet__jet-blog-btn" name="addfiat" id="f_requisites_btn">
+
+</div>
+</div>  
+</form>
+
+
+
+
+
+
+
+<div class="user_wallet">
+<div class="user_wallet_title">
+Реквизиты
+</div>
+<div class="user_wallet_card">
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+<div class="wallet__jet-main-blog requisites_main_blog">
+
+<form method="POST" class="wallet__jet-blog-content">
+<div class="wallet__jet-blog-form">
+<div class="wallet__jet-blog-flex">
+<div class="wallet__jet-blog-name requisites_c_blog_img">
+<img alt="" id="">
+</div>
+<div class="wallet__jet-blog-input">
+<input type="text" id="c_requisites__amount" maxlength="50" name="wallet" placeholder="Введите реквизит" require>
+</div>
+</div>
+<div id="error_requisites_c"></div>
+<div class="wallet__jet-blog-button">
+<input type="hidden" id="requisites_c_coin__id" name="id">
+<input type="submit" value="Сохранить" class="wallet__jet-blog-btn" name="addcripto" id="c_requisites_btn">
+
+</div>
+</div>  
+</form>
+
+
+
+
+
+
+<div class="user_wallet">
+<div class="user_wallet_title">
+Ваши реквизиты
+</div>
+
+<div class="user_wallet_card">
+
+<div class="user_wallet_card_item">
+<div class="user_wallet_card_flex">
+<div class="user_wallet_card_img">
+<img alt="Вывод с игры лаки джет на киви кошелек" src="/templates/Default/images/pay/">
+</div>
+<div class="user_wallet_card_number">
+99999999 oR 7=7</div>
+<div class="user_wallet_card_delete" data-bs-toggle="modal" data-bs-target="#delete_wallet_modal23742">
+Удалить
+</div>
+</div>
+</div>
+
+
+
+<div class="modal fade delete_wallet_modal" id="delete_wallet_modal23742" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered delete_wallet_modal_dialog">
+<div class="modal-content delete_wallet_modal_content">
+
+<div class="userinfo_modal_header">
+<div class="userinfo_modal_header_title">
+Удаления кошелка
+</div>
+<div class="userinfo_modal_header_close delete_close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+
+<div class="delete_wallet_body">
+<div class="delete_wallet_text">
+Вы точно хотите удалить этот реквизит?
+</div>
+<form method="POST">
+<div class="delete_wallet_button">
+<div class="delete_wallet_btn delete_close">Нет</div>
+<input type="hidden" name="id" value="3742">  
+<input type="submit" class="delete_wallet_btn" value="Да" name="deletecripto">
+</div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+<div class="userinfo_blog">
+
+
+<div class="newpass">
+
+<div class="newpass_blog">
+<div class="wallet__jet-title">
+Смена пароля
+</div>
+<div class="newpass_info">
+<div class="newpass_info_text">
+Здесь Вы можете сменить свой пароль
+</div>
+<form method="POST">
+<div class="newpass_info_item">
+<div class="newpass_info_item_flex">
+<div class="newpass_info_item_icon">
+<i class="bi bi-key-fill"></i>
+</div>
+<div class="user_wallet_card_input">
+<input type="password" placeholder="Старый пароль" id="" name="oldpass" required>
+</div>
+</div>
+</div>
+
+<div class="newpass_info_item">
+<div class="newpass_info_item_flex">
+<div class="newpass_info_item_icon">
+<i class="bi bi-lock-fill"></i>
+</div>
+<div class="user_wallet_card_input">
+<input type="password" placeholder="Новый пароль" id="" name="pas1" required>
+</div>
+</div>
+</div>
+
+<div class="newpass_info_item">
+<div class="newpass_info_item_flex">
+<div class="newpass_info_item_icon">
+<i class="bi bi-lock-fill"></i>
+</div>
+<div class="user_wallet_card_input">
+<input type="password" placeholder="Повторите новый пароль" id="" name="pas2" required>
+</div>
+</div>
+</div>
+
+<div class="newpass_info_button">
+<input type="submit" class="newpass_info_btn" value="Сохранить" name="gonewwpass">
+</div>
+</form>
+</div>
+</div>
+
+
+
+
+<div class="newpass_blog">
+<form method="POST">
+<div class="wallet__jet-title">
+Удаление аккаунта
+</div>   
+<div class="newpass_info">
+<div class="newpass_info_text">
+Здес Вы можете удалить аккаунт
+</div>
+<div class="newpass_info_button">
+<div class="newpass_info_btn" data-bs-toggle="modal" data-bs-target="#delete_info">
+Удалить
+</div>
+</div>
+</div>
+<div class="modal fade delete_wallet_modal" id="delete_info" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered delete_wallet_modal_dialog">
+<div class="modal-content delete_wallet_modal_content">
+
+<div class="userinfo_modal_header">
+<div class="userinfo_modal_header_title">
+Удаление аккаунта
+</div>
+<div class="userinfo_modal_header_close delete_close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+
+<div class="delete_wallet_body">
+<div class="delete_wallet_text">
+<i><b>Внимание!</b></i>
+При удалении аккаунта, будут удалены все Ваши данные...
+<br>
+История пополнений, история ставок а также все виды баланса... 
+<br>
+Перед удалением аккаунта выведите все средства.
+</div>
+<div class="delete_wallet_button">
+<div class="delete_wallet_btn delete_close">Отмена</div>
+<input type="submit" class="delete_wallet_btn" id="" name="deleteaccaunt" value="Удалить">
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</form>
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="exit_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered comein-modal-dialog">
+<div class="modal-content payin-modal-content">
+<div class="modal-body p-0">
+<div class="payin__jet-header">
+<div class="w-100 df-aic-jcsb">
+<div class="userinfo_modal_header_title">
+Выход
+</div>
+<div class="payin__jet-close_modal" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+</div>
+
+<div class="exit-modal-text">
+Вы точно хотите выйти?
+</div>
+
+<div class="exit_modal_button df-aic-jce">
+<a class="exit_modal_btn" href="/index.php?action=logout">Да</a>
+<button class="exit_modal_btn" data-bs-dismiss="modal" aria-label="Close">Нет</button>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="history_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered history-modal-dialog">
+<div class="modal-content wallet-modal-content">
+
+
+
+<div class="modal-body p-0">
+
+<div class="wallet__jet ">
+<div class="userinfo_modal_header">
+<div class="userinfo_modal_header_title">
+История
+</div>
+<div class="userinfo_modal_header_close" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+
+
+<div class="wallet__jet-left history__jet">
+
+<div class="wallet__jet-tabs">
+<div class="wallet__jet-tabs-item history_tabs">
+Пополнение
+</div>
+<div class="wallet__jet-tabs-item history_tabs">
+Вывод
+</div>
+</div>
+
+<div class="wallet__jet-content">
+<div class="wallet__jet-blog history_blog">
+<div class="history_blog_content">
+
+<table class="history_table">
+<thead class="history_thead">
+<tr class="history_thead_tr">
+<th>
+№
+</th>
+<th>
+Система
+</th>
+<th>
+Сумма пополнения
+</th>
+<th>
+Дата
+</th>
+</tr>
+</thead>
+<tbody class="history_tbody">
+
+
+<tr class="history_tbody_tr">
+<td>
+#INV-32777</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/spb.png" alt="История ставок лаки джет игра">
+SBP PAY RUB</td>
+<td>
+1500.00<img style="width: 30px;" src="/templates/Default/images/pay/spb.png" alt="Как пополнить счет lucky jet">
+<i class="fa-solid fa-equals"></i>
+15.81<i class="fa-duotone fa-dollar-sign"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+06.10.2024 12.22.03</td>
+</tr>
+
+
+<tr class="history_tbody_tr">
+<td>
+#INV-27840</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/sberbank.png" alt="История ставок лаки джет игра">
+SBER PAY</td>
+<td>
+1500.00<img style="width: 30px;" src="/templates/Default/images/pay/sberbank.png" alt="Как пополнить счет lucky jet">
+<i class="fa-solid fa-equals"></i>
+16.87<i class="fa-duotone fa-dollar-sign"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+05.09.2024 10.41.14</td>
+</tr>
+
+
+	
+</tbody>
+</table>
+
+<div class="history_mob_content">
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-32777</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/spb.png" alt="Система лаки джет гаме">
+SBP PAY RUB</div>
+</div>
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+1500.00<img style="width: 30px;" src="/templates/Default/images/pay/spb.png" alt="Сумма вывода lucky jet">
+<i class="fa-solid fa-equals"></i>
+15.81<i class="fa-duotone fa-dollar-sign"></i>
+</div>
+</div>
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+06.10.2024 12.22.03</div>
+</div>
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-27840</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/sberbank.png" alt="Система лаки джет гаме">
+SBER PAY</div>
+</div>
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+1500.00<img style="width: 30px;" src="/templates/Default/images/pay/sberbank.png" alt="Сумма вывода lucky jet">
+<i class="fa-solid fa-equals"></i>
+16.87<i class="fa-duotone fa-dollar-sign"></i>
+</div>
+</div>
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+05.09.2024 10.41.14</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="wallet__jet-blog history_blog">
+<div class="history_blog_content">
+
+<table class="history_table">
+<thead class="history_thead">
+<tr class="history_thead_tr">
+<th>
+№
+</th>
+<th>
+Система
+</th>
+<th>
+Сумма вывода
+</th>
+<th>
+Статус
+</th>
+<th>
+Дата
+</th>
+</tr>
+</thead>
+<tbody class="history_tbody">
+<tr class="history_tbody_tr">
+<td>
+#INV-1680</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.37</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1679</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.36</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1678</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.33</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1677</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.33</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1676</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.33</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1675</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.32</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1674</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.32</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1673</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.31</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1672</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.29</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1671</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.28</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1670</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.28</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1669</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.26</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1668</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.26</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1667</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.25</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1666</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.25</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1665</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.24</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1664</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.23</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1663</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.22</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1662</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.21</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1661</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.21</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1660</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.20</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1659</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.19</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1658</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.19</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1657</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.18</td>
+
+</tr>
+
+<tr class="history_tbody_tr">
+<td>
+#INV-1656</td>
+<td>
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Инвойс лаки джет игра">
+</td>
+<td>
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лимиты на вывод с lucky jet">
+</td>
+<td>
+<i class="fa-regular fa-clock"></i>
+</td>
+<td>
+<i class="fa-duotone fa-calendar-days"></i>   
+30.11.2024 01.25.18</td>
+
+</tr>
+
+
+	
+</tbody>
+</table>
+
+<div class="history_mob_content">
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1680</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.37</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1679</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.36</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1678</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.33</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1677</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.33</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1676</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.33</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1675</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.32</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1674</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.32</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1673</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.31</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1672</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.29</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1671</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.28</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1670</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.28</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1669</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.26</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1668</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.26</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1667</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.25</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1666</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.25</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1665</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.24</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1664</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.23</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1663</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.22</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1662</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.21</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1661</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.21</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1660</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.20</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1659</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.19</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1658</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.19</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1657</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.18</div>
+</div>
+
+</div>
+</div>
+</div>
+	
+<div class="history_mob_item">
+<div class="about__faq-blog history_mob_blog">
+<div class="about__faq-blog-header history_mob_blog_header">
+<div class="about__faq-blog-header-text">
+#INV-1656</div>
+<div class="about__faq-blog-header-icon">
+<i class="bi bi-chevron-down"></i>
+</div>
+</div>
+<div class="about__faq-blog-dropdown">
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Система
+</div>
+<div class="history_mob_col_rusult">
+<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Лаки джет игра на деньги краш игра">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Сумма вывода
+</div>
+<div class="history_mob_col_rusult">
+0.00000000<img style="width: 30px;" src="/templates/Default/images/pay/" alt="Lucky-jet играть онлайн">
+</div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Статус
+</div>
+<div class="history_mob_col_rusult">
+<i class="fa-regular fa-clock"></i></div>
+</div>
+
+<div class="history_mob_col">
+<div class="history_mob_col_title">
+Дата
+</div>
+<div class="history_mob_col_rusult">
+30.11.2024 01.25.18</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+<div class="modal fade" id="comein_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered comein-modal-dialog">
+<div class="modal-content payin-modal-content">
+<div class="modal-body p-0">
+
+<!-- comein -->
+<div class="comein-modal-blog" id="comein_blog">
+<div class="payin__jet-header">
+<div class="w-100 df-aic-jcsb">
+<div class="userinfo_modal_header_title">
+Вход
+</div>
+<div class="payin__jet-close_modal" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+<div class="comein-modal-text">
+Добро пожаловать
+</div>
+</div>
+<form method="POST">
+<div class="comein-content">
+<div class="comein-message">
+
+</div>
+
+<div class="comein-else">
+<div class="comein-else-text">
+
+</div>
+</div>
+
+
+
+<div class="comein-form">
+<div class="comein-form-item">
+<input type="email" placeholder="Введите Email" name="login_name" required>
+</div>
+<div class="comein-form-item">
+<input type="password" placeholder="Введите Пароль" name="login_password" required id="password">
+<div class="comein-form-eye" id="eye_passrowd">
+<i class="fa-regular fa-eye"></i>
+</div>
+</div>
+<div class="comein-form-link">
+<span id="newpass_blog">
+Забыли пароль?
+</span>
+</div>
+
+<div class="comein-form-button">
+<button type="button" onclick="submit();">Войти</button>
+<input name="login" type="hidden" id="login" value="submit">
+</div>
+
+<div class="register-link">
+Еще нет аккаунта? <span data-bs-toggle="modal" data-bs-target="#register_modal" data-bs-dismiss="modal" aria-label="Close">Зарегистрируйтесь</span>
+</div>
+
+</div>
+
+
+
+
+</div>
+</form>
+</div>
+<!-- .......... -->
+
+<!-- newpassword -->
+<div class="comein-modal-newpassword" id="newpassword_blog">
+<div class="payin__jet-header">
+<div class="w-100 df-aic-jcsb">
+<div class="payin__jet-title">
+Восстановление пароля
+</div>
+<div class="payin__jet-close_modal" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+
+<div class="comein-modal-text">
+Пожалуйста, укажите email или номер телефона от Вашего аккаунта и мы отправим Вам инструкцию по восстановлению пароля
+</div>
+</div>
+
+<form method="">
+<div class="comein-content">
+
+<div class="comein-form-newpassword">
+<div class="comein-form-item">
+<input type="email" placeholder="Email" id="" name="" required>
+
+
+<div class="recaptcha_blog_comein">
+
+<div class="g-recaptcha" data-sitekey="6LdChw4qAAAAAIUt9FSWTPgPyEKUEYKIHfUjJD3i" data-theme="light"></div><script src='https://www.google.com/recaptcha/api.js?hl=ru' async defer></script>
+	
+</div>
+</div>
+
+
+<div class="comein-form-button mb-0  df-aic-jcsb gap-3">
+<div class="comein-form-next">
+<i class="fa-solid fa-arrow-left"></i>
+</div>
+<button type="submit">
+Отправить
+</button>
+</div>
+
+
+
+</div>
+
+</div>
+</form>
+</div>
+<!-- .......... -->
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="modal fade" id="register_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered comein-modal-dialog">
+<div class="modal-content payin-modal-content">
+<div class="modal-body p-0">
+<div class="payin__jet-header">
+<div class="w-100 df-aic-jcsb">
+<div class="userinfo_modal_header_title">
+Регистрация
+</div>
+<div class="payin__jet-close_modal" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-regular fa-xmark-large"></i>
+</div>
+</div>
+</div>
+<form method="POST" name="registration" onsubmit="if (!check_reg_daten()) {return false;};" id="registration" action="?do=register">
+<div class="comein-content">
+<div class="comein-message">
+
+
+
+
+</div>
+
+<div class="comein-else">
+<div class="comein-else-text">
+
+</div>
+</div>
+
+<div class="comein-form">
+<div class="comein-form-item">
+<input type="text" placeholder="Логин" name="name" id="name" required>
+</div>
+<div class="comein-form-item">
+<input type="email" placeholder="Email" name="email" id="email" required>
+</div>
+<div class="comein-form-item">
+<input type="password" placeholder="Пароль" name="password1" id="password1" required>
+<div class="comein-form-eye" id="eye_passrowd1">
+<i class="fa-regular fa-eye"></i>
+</div>
+</div>
+<div class="comein-form-item">
+<input type="password" placeholder="Пароль" name="password2" id="password2" required>
+<div class="comein-form-eye" id="eye_passrowd2">
+<i class="fa-regular fa-eye"></i>
+</div>
+</div>
+
+
+<div class="recaptcha_blog">
+
+<div class="g-recaptcha" data-sitekey="6LdChw4qAAAAAIUt9FSWTPgPyEKUEYKIHfUjJD3i" data-theme="light"></div><script src='https://www.google.com/recaptcha/api.js?hl=ru' async defer></script>
+
+		
+</div>
+
+<div class="comein-form-button">
+<button type="submit" name="submit">Зарегистрироваться</button>
+<input name="submit_reg" type="hidden" id="submit_reg" value="submit_reg">
+<input name="do" type="hidden" id="do" value="register">
+</div>
+
+<div class="register-link">
+Уже есть аккаунт? <span data-bs-toggle="modal" data-bs-target="#comein_modal" data-bs-dismiss="modal" aria-label="Close">Войти</span>
+</div>
+
+</div>
+
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="modal fade" id="setting_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered info_modal_dialog">
+<div class="modal-content info_modal_content">
+<div class="info_modal_header df-aic-jcsb">
+<div class="info_modal_header_title df-aic">
+<img src="/templates/Default/images/info_modal_icon.svg" alt="Lucky Jet чат поддержки">
+НАСТРОЙКИ
+</div>
+<div class="info_modal_header_close btn-bg df-aic-jcc" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-solid fa-xmark"></i>
+</div>
+</div>
+<div class="info_modal_body">
+    
+<div class="info_modal_body_top df-aic-jcsb">
+<div class="info_modal_body_top_left">
+<p>
+В Lucky Jet используется технология Provably Fair для определения результата игры.
+</p>
+<p>
+В этом окне вы можете изменить свой клиентский сид и проверить честность игры.
+</p>
+</div>
+<div class="info_modal_body_top_right">
+<div class="info_modal_body_top_link btn-bg df-aic-jcc" data-bs-toggle="modal" data-bs-target="#rules__modal" data-bs-dismiss="modal" aria-label="Close">
+Подробнее
+<i class="fa-solid fa-circle-question"></i>
+</div>
+</div>
+</div>
+
+<div class="info_modal_clients">
+
+<div class="clients_modal_header">
+<div class="clients_modal_header_flex df-aic">
+<div class="clients_modal_header_img">
+<img src="/templates/Default/images/clients_modal_header_img.svg" alt="Lucky Jet простая регестрация ">
+</div>
+<div class="clients_modal_header_tiile">
+Следующий клиентский(вы) сид:
+</div>
+</div>
+<div class="clients_modal_header_text">
+Результат раунда определяется комбинацией серверного сида и сидов первых трех ставок раунда.
+</div>
+</div>
+
+<div class="clients_modal_list">
+
+<div class="clients_modal_item">
+<label for="clients_sid_checkbox" class="clients_modal_item_checkbox">
+<input type="checkbox" checked id="clients_sid_checkbox">
+<div class="clients_modal_checkbox clients_checkbox_active" id="sid_checkbox1"></div>
+<div class="clients_modal_item_title">
+Случайная генерация в каждой игре
+</div>
+</label>
+
+<div class="clients_modal_sid">
+<div class="clients_modal_sid_title">
+Текущий:
+</div>
+<div class="clients_modal_sid_value" id="clients_sid1">
+
+</div>
+<div class="clients_modal_sid_copy" onclick="reflink('#clients_sid1')">
+<img src="/templates/Default/images/clients_modal_sid_copy.svg" alt="1 вин лаки джет играть">
+</div>
+</div>
+</div>
+
+
+<div class="clients_modal_item">
+<div class="clients_modal_item_flex df-aic-jcsb">
+<label for="clients_sid_checkbox2" class="clients_modal_item_checkbox">
+<input type="checkbox" id="clients_sid_checkbox2">
+<div class="clients_modal_item_check df-aic">
+<div class="clients_modal_checkbox" id="sid_checkbox2"></div>
+<div class="clients_modal_item_title">
+Ручной ввод
+</div>
+</div>
+</label>
+<div class="clients_modal_item_btn clients_btn btn_disabled" data-bs-toggle="modal" data-bs-target="#setting_sid_modal">
+Изменить
+</div>
+</div>
+<div class="clients_modal_sid">
+<div class="clients_modal_sid_title">
+Текущий:
+</div>
+<div class="clients_modal_sid_value" id="clients_sid2">
+
+</div>
+<div class="clients_modal_sid_copy" onclick="reflink('#clients_sid2')">
+<img src="/templates/Default/images/clients_modal_sid_copy.svg" alt="Реферальная программа от  игры лаки джет">
+</div>
+</div>
+<div class="clients_modal_sid_btn clients_btn btn_disabled" data-bs-toggle="modal" data-bs-target="#setting_sid_modal">
+Изменить
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="info_modal_clients">
+
+<div class="clients_modal_header">
+<div class="clients_modal_header_flex df-aic">
+<div class="clients_modal_header_img">
+<img src="/templates/Default/images/clients_modal_header_img2.svg" alt="ЗАРАБОТОК НА ИГРЕ ЛАКИ ДЖЕТ играть">
+</div>
+<div class="clients_modal_header_tiile">
+Следующий серверный сид:
+</div>
+</div>
+</div>
+
+<div class="clients_modal_list">
+
+<div class="clients_modal_item h-100">
+
+<div class="clients_modal_sid2">
+<div class="clients_modal_sid_title">
+Текущий:
+</div>
+<div class="clients_modal_sid_value" id="clients_sid3">
+
+</div>
+<div class="clients_modal_sid_copy" onclick="reflink('#clients_sid3')">
+<img src="/templates/Default/images/clients_modal_sid_copy.svg" alt="Заработать на рефералmной программе lucky jet games">
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+ 
+<div class="info_modal_bottom">
+<span>Правильность хеширования можно проверить в любом онлайн-калькуляторе</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="setting_sid_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered info_modal_sid_dialog">
+<div class="modal-content info_modal_content">
+<div class="info_modal_header df-aic-jcsb">
+<div class="info_modal_header_title df-aic">
+ИЗМЕНИТЬ СИД
+</div>
+<div class="info_modal_header_close btn-bg df-aic-jcc" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-solid fa-xmark"></i>
+</div>
+</div>
+<div class="info_modal_body">
+    
+<div class="clients_sid_modal_content">
+
+<div class="clients_sid_modal_body">
+<div class="clients_sid_modal_info">
+<div class="clients_sid_modal_title">
+Введите новый сид 
+</div>
+<div class="clients_sid_modal_input">
+<div class="clients_sid_modal_newsid">
+Новый:
+</div>
+<input type="text" maxlength="20" placeholder="Введите новый сид" id="clients_sid">
+</div>
+</div>
+<div class="clients_sid_modal_button">
+<div class="clients_sid_modal_btn btn-bg btn_random">
+Рандом
+</div>
+<div class="clients_sid_modal_btn btn_save" id="savesha">
+Сохранить
+</div>
+
+<div class="clients_sid_modal_btn btn_close" data-bs-dismiss="modal" aria-label="Close">
+Отменить
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="rules__modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered rules__modal_dialog">
+<div class="modal-content info_modal_content">
+<div class="info_modal_header df-aic-jcsb">
+<div class="info_modal_header_title df-aic">
+<img src="/templates/Default/images/info_modal_icon.svg" alt="Честная игра от лаки джет гамес">
+PROVABLY FAIR
+</div>
+<div class="info_modal_header_close btn-bg df-aic-jcc" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-solid fa-xmark"></i>
+</div>
+</div>
+<div class="rules_modal_body">
+    
+<div class="rules_modal">
+<span>
+Мы играем честно. Хочешь узнать, как это работает?
+</span>
+<ul>
+<li>
+Коэффициент выигрыша стартует с 1х и растет все выше и выше, пока Счастливчик Джо поднимается вверх.
+</li>
+<li>
+Выигрышная сумма равняется коэффициенту в момент когда игрок сделал вывод, умноженному на сумму его ставки.
+</li>
+<li>
+Также имеется возможность проверить и изменить настройки честной игры. Для этого необходимо зайти в «Меню Игры» и выбрать пункт «Настройки PROVABLY FAIR».
+</li>
+<li>
+Коэффициент выигрыша стартует с 1х и растет все выше и выше, пока Счастливчик Джо поднимается вверх.
+</li>
+</ul>
+<div class="br_height"></div>
+<span>
+Технические гарантии нашей честности
+</span>
+<div class="br_height"></div>
+<p>
+Однако не забывайте, что у вас есть ограничения по времени. Вам нужно вывести средства до того, как улетит Счастливчик Джо, иначе вы потеряете свою ставку. Игра в Lucky Jet – азарт в чистом виде! Здесь вы рискуете и побеждаете. Все зависит от вас!
+</p>
+<ul>
+<div class="br_height"></div>
+<span>
+Краткое объяснение принципа работы:
+</span>
+<div class="br_height"></div>
+<p>
+Коэффициент каждого раунда (момент, при котором пилот реактивного ранца Улетел!) генерируется не на игровых серверах. Наоборот, генерация коэффициента определяется с помощью игроков-участников конкретного раунда. Причем этот процесс полностью прозрачен. Следовательно ни у кого не возникает возможности для манипуляции результатами раунда. Более того, у каждого игрока имеется возможность проверить и убедиться в честности расчета коэффициента.
+</p>
+<div class="br_height"></div>
+<span>
+Подробное объяснение принципа работы:
+</span>
+<div class="br_height"></div>
+<img src="/templates/Default/images/rules_modal_img.svg" alt="Принцип работы лаки джет игра">
+<div class="br_height"></div>
+<p>
+Результат раунда генерируется на клиентах четырех разных и независимых игроков, которые участвуют в конкретном раунде.
+</p>
+<div class="br_height"></div>
+<p>
+К ним относятся:
+</p>
+
+<ol>
+<li >
+игровой оператор
+</li>
+<li>
+три игрока, которые первыми сделали ставку.
+</li>
+</ol>
+<div class="br_height"></div>
+<p>
+Оператором игры производится генерация серверного сида (случайные 16 символов). Зашифрованная версия серверного сида находится в публичном доступе до начала игрового раунда. Чтобы его увидеть, необходимо зайти в "Настройки PROVABLY FAIR", которые расположены в меню пользователя. Там можно выбрать имеющийся клиентский сид или создать новый, нажав на кнопку "Следующий клиентский сид SHA512".
+</p>
+<div class="br_height"></div>
+<p>
+Здесь вы также можете изменить свой клиентский сид.
+</p>
+<div class="br_height"></div>
+<p>
+В дальнейшем в формировании клиентского сида участвуют первые 3 игрока, сделавшие ставку. Часть сида генерируется на стороне каждого из этих игроков.
+</p>
+<div class="br_height"></div>
+<p>
+В момент начала раунда игра объединяет серверный сид и клиентские сиды первых 3 игроков. Объединенные сиды генерируют SHA512 хеш, а сформированный хеш уже и определяет исход конкретного раунда.
+</p>
+
+</ul>
+<div class="br_height"></div>
+<span>
+Проверка честности:
+</span>
+<ul>
+<li>
+Любой игрок имеет право проверить честность каждого проведенного раунда из истории игры. Чтобы это сделать ему необходимо нажать зеленую иконку.
+</li>
+<li>
+В открывшемся окне будет показан серверный сид, три клиентских сида, а также комбинированный хеш и результат раунда.
+</li>
+<li>
+Если игрок хочет участвовать в формировании результата раунда, ему необходимо находиться в числе первых трех игроков, которые делают ставку в конкретном раунде.
+</li>
+<li>
+Правильность хеша может быть проверена в любом онлайн-калькуляторе, напримерhttps://www.miniwebtool.com/sha512-hash-generator/
+</li>
+</ul>
+</div>
+</div>
+
+<div class="info_modal_bottom">
+<span>Правильность хеширования можно проверить в любом онлайн-калькуляторе</span>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="rules2__modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered rules__modal_dialog">
+<div class="modal-content info_modal_content">
+<div class="info_modal_header df-aic-jcsb">
+<div class="info_modal_header_title df-aic">
+<img src="/templates/Default/images/info_modal_icon.svg" alt="Правила игра лаки джет">
+ПРАВИЛА ИГРЫ
+</div>
+<div class="info_modal_header_close btn-bg df-aic-jcc" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-solid fa-xmark"></i>
+</div>
+</div>
+<div class="info_modal_body_top df-aic-jcsb">
+<div class="info_modal_body_top_left">
+<p>
+Lucky Jet – новейшее азартное развлечение, которое подойдет новому поколению игроков. Ты можешь выиграть в несколько раз больше буквально за несколько секунд! Lucky Jet устроен на схеме, которую можно проверить и которая в настоящий момент считается единственной реально работающей гарантией честности в индустрии азартных игр.
+</p>
+</div>
+<div class="info_modal_body_top_right">
+<div class="info_modal_body_top_link btn-bg df-aic-jcc" data-bs-toggle="modal" data-bs-target="#rules__modal" data-bs-dismiss="modal" aria-label="Close">
+Подробнее
+<i class="fa-solid fa-circle-question"></i>
+</div>
+</div>
+</div>
+<div class="rules_modal_body">
+<div class="rules_modal"> 
+<div class="rules_modal_flex df-aic-jcsb">
+<div class="rules_modal_item">
+<div class="rules_modal_img">
+<img src="/templates/Default/images/rules_modal_item_img.png" alt="Как пополнить счет лаки джет гамес">
+</div>
+<div class="rules_modal_text">
+Введите нужную сумму и нажмите кнопку <СТАВКА>
+</div>
+</div>
+<div class="rules_modal_item">
+<div class="rules_modal_img">
+<img src="/templates/Default/images/rules_modal_item_img2.png" alt="Счастливчик Джо лаки джет">
+</div>
+<div class="rules_modal_text">
+Следи как твой Счастливчик Джо планирует, а коэффициент растет
+</div>
+</div>
+<div class="rules_modal_item">
+<div class="rules_modal_img">
+<img src="/templates/Default/images/rules_modal_item_img3.png" alt="Вывод средств в игре лаки джет">
+</div>
+<div class="rules_modal_text">
+Выводи прежде чем Счастливчик Джо исчезнет и выиграй в X раз больше!
+</div>
+</div>
+</div> 
+<div class="br_height"></div> 
+<p>
+Однако не забывайте, что у вас есть ограничения по времени. Вам нужно вывести средства до того, как улетит Счастливчик Джо, иначе вы потеряете свою ставку. Игра в Lucky Jet — азарт в чистом виде! Здесь вы рискуете и побеждаете. Все зависит от вас!
+</p>
+<div class="br_height"></div>
+<span>Как играть и какие правила?</span>
+<ul>
+<li>
+Чтобы сделать ставку, нужно выбрать желаемую сумму и нажать на кнопку «Ставка».
+</li>
+<li>
+При этом нет нужды ограничивать себя только одной ставкой за раз. Вы можете делать две ставки одновременно, используя как левую, так и правую панель ставки.
+</li>
+<li>
+Чтобы вывести выигрыш, нужно нажать кнопку «Вывод». Ваш выигрыш складывается из совокупности вашей ставки, умноженной на множитель кэшаута.
+</li>
+<li>
+Если не сделать Вывод до того, как Счастливчик Джо улетит, то ставка будет потеряна.
+</li>
+</ul>
+<div class="br_height"></div>
+<span>Автоставка и Автовывод</span>
+<ul>
+<li>
+Автоматическую Ставку можно активировать на панели любой ставки, если поставить галочку в строчке «Автоставка». В таком случае ставки делаются автоматически. Тем не менее чтобы вывести выигрыш все равно необходимо нажимать кнопку «Вывод» для каждого раунда.
+</li>
+<li>
+Если желаете полностью автоматизировать игру, то имеется возможность и настройки автоматического вывода выигрыша. Для этого необходимо активировать на панели ставки «Автовывод». Тогда средства будут автоматически выводиться при достижении заданного вами коэффициента.
+</li>
+</ul>
+<div class="br_height"></div>
+<span>Интерфейс нашей игры</span>
+<div class="br_height"></div>
+<ul>
+<span class="ps-0">Лайв Ставки и Статистика</span>
+<li>
+Слева (если использовать мобильный интерфейс, то под панелью ставок) находится панель «Лайв Ставки». На ней отображаются ставки, которые были сделаны в текущем раунде.
+</li>
+<li>
+Панели «Мои ставки» содержит информацию о сделанных ставках и выводе средств за все время игры.
+</li>
+<li>
+Панель «Топ» содержит игровую статистику. Тут можно изучить выигрыши других игроков как по сумме, так и по коэффициенту обналичивания. Так можно увидеть самые большие коэффициенты в раунде.
+</li>
+<div class="br_height"></div>
+<span class="ps-0">
+Работа с техническими проблемами
+</span>
+<li>
+Оператор не несет ответственности за потерю ставки по причине разрыва интернет-соединения. Рекомендуем играть при наличии стабильного соединения.
+</li>
+<li>
+Если же неисправность возникнет на игровом оборудовании либо игровом программном обеспечении, то все ставки и выплаты будут аннулированы. При это ставки возмещаются пострадавшим игрокам в полном объеме в течение 1 часа.
+</li>
+</ul>
+</div>
+</div>
+
+<div class="info_modal_bottom">
+<span>Правильность хеширования можно проверить в любом онлайн-калькуляторе</span>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="history__modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered history__modal_dialog">
+<div class="modal-content info_modal_content">
+<div class="info_modal_header df-aic-jcsb">
+<div class="info_modal_header_title df-aic">
+<img src="/templates/Default/images/hisyory_modal_icon.svg" alt="История ставок lucky jet">
+МОЯ ИСТОРИЯ СТАВОК
+</div>
+<div class="info_modal_header_close btn-bg df-aic-jcc" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-solid fa-xmark"></i>
+</div>
+</div>
+
+
+<div class="history__modal_body" id="modal_myhistory">
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="limit__modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered history__modal_dialog">
+<div class="modal-content info_modal_content">
+<div class="info_modal_header df-aic-jcsb">
+<div class="info_modal_header_title df-aic">
+<img src="/templates/Default/images/limit_modal_icon.svg" alt="Игровые лимиты лаки джет гамес">
+ИГРОВЫЕ ЛИМИТЫ
+</div>
+<div class="info_modal_header_close btn-bg df-aic-jcc" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-solid fa-xmark"></i>
+</div>
+</div>
+
+
+<div class="limit__modal_body">
+<div class="limit__modal_content">
+
+
+<div class="limit__modal_item">
+<div class="limit__modal_item_name">
+Минимальная ставка
+</div>
+<div class="limit__modal_item_nuber">
+20.00 ₽
+</div>
+</div>
+
+<div class="limit__modal_item">
+<div class="limit__modal_item_name">
+Максимальная ставка
+</div>
+<div class="limit__modal_item_nuber">
+99000.00 ₽
+</div>
+</div>
+
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="bonus__modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered bonus__modal_dialog">
+<div class="modal-content info_modal_content">
+<div class="info_modal_header df-aic-jcsb">
+<div class="info_modal_header_title df-aic">
+<img src="/templates/Default/images/bonus_modal_icon.svg" alt="Получить бонус от  игры lucky jet">
+ИСПОЛЬЗОВАТЬ БОНУС
+</div>
+<div class="info_modal_header_close btn-bg df-aic-jcc" data-bs-dismiss="modal" aria-label="Close">
+<i class="fa-solid fa-xmark"></i>
+</div>
+</div>
+
+
+
+<div class="bonus__modal_header">
+<p>
+При активации ваучера вам будет начислена бонусная ставка. На время бонусной игры, ваш основной счет будет не активен, пока вы ее не завершите.
+</p>
+</div>
+<div class="bonus__modal_body">
+
+<form method="POST">
+<div class="bonus__modal_flex">
+<div class="bonus__modal_title">
+Введите ваучер
+</div>
+
+
+<input type="text" class="bonus__modal_input" id="bonus_input" name="code">
+</div>
+<div class="bonus__modal_button">
+
+<input type="submit" name="voucher_activation" class="bonus__modal_btn" value="Применить">
+
+
+<div class="bonus__modal_btn btn_close" data-bs-dismiss="modal" aria-label="Close">
+Отмена
+</div>
+</div>
+</form>
+
+
+
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = '95ac1ba5578020157e932e93bdccc8f114f3ef17';
+var dle_group      = 5;
+var dle_skin       = 'Default';
+var dle_wysiwyg    = '1';
+var quick_wysiwyg  = '1';
+var dle_min_search = '4';
+var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена", "Сохранить", "Удалить", "Загрузка. Пожалуйста, подождите..."];
+var menu_short     = 'Быстрое редактирование';
+var menu_full      = 'Полное редактирование';
+var menu_profile   = 'Просмотр профиля';
+var menu_send      = 'Отправить сообщение';
+var menu_uedit     = 'Админцентр';
+var dle_info       = 'Информация';
+var dle_confirm    = 'Подтверждение';
+var dle_prompt     = 'Ввод информации';
+var dle_req_field  = 'Заполните все необходимые поля';
+var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+var dle_spam_agree = 'Вы действительно хотите отметить пользователя как спамера? Это приведёт к удалению всех его комментариев';
+var dle_c_title    = 'Отправка жалобы';
+var dle_complaint  = 'Укажите текст Вашей жалобы для администрации:';
+var dle_mail       = 'Ваш e-mail:';
+var dle_big_text   = 'Выделен слишком большой участок текста.';
+var dle_orfo_title = 'Укажите комментарий для администрации к найденной ошибке на странице:';
+var dle_p_send     = 'Отправить';
+var dle_p_send_ok  = 'Уведомление успешно отправлено';
+var dle_save_ok    = 'Изменения успешно сохранены. Обновить страницу?';
+var dle_reply_title= 'Ответ на комментарий';
+var dle_tree_comm  = '0';
+var dle_del_news   = 'Удалить статью';
+var dle_sub_agree  = 'Вы действительно хотите подписаться на комментарии к данной публикации?';
+var dle_captcha_type  = '1';
+var DLEPlayerLang     = {prev: 'Предыдущий',next: 'Следующий',play: 'Воспроизвести',pause: 'Пауза',mute: 'Выключить звук', unmute: 'Включить звук', settings: 'Настройки', enterFullscreen: 'На полный экран', exitFullscreen: 'Выключить полноэкранный режим', speed: 'Скорость', normal: 'Обычная', quality: 'Качество', pip: 'Режим PiP'};
+var allow_dle_delete_news   = false;
+var dle_search_delay   = false;
+var dle_search_value   = '';
+jQuery(function($){
+FastSearch();
+});
+//-->
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="/templates/Default/js/jquery-3.6.0.min.js"></script>
+<script src="/templates/Default/js/jquery.emojipicker.js"></script>
+<script src="/templates/Default/js/jquery.emojis.js"></script>
+<script src="/templates/Default/js/graph.js"></script>
+<script src="/templates/Default/js/jet.js"></script>
+<script src="/templates/Default/js/main.js"></script>
+<script src="/templates/Default/js/userinfo.js"></script>
+<script src="/templates/Default/js/payin.js"></script>
+<script src="/templates/Default/js/payout.js"></script>
+<script src="/templates/Default/js/history.js"></script>
+<script src="/templates/Default/js/requisites.js"></script>
+<script src="/templates/Default/js/app.js"></script>
+<script src="/templates/Default/js/coefficient.js"></script>
+<script src="/templates/Default/js/chat.js"></script>
+
+
+
+
+<!-- <script src="/templates/Default/js/index.js"></script> -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(98089922, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/98089922" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+    
+</body>
+</html>

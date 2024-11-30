@@ -1,0 +1,21 @@
+$(document).ready(function () {
+var userinfo_tabs_link = $(".userinfo_modal_tabs_item");
+var userinfo_tabs_blog = $(".userinfo_blog");
+
+for (let i = 0; i < userinfo_tabs_link.length; i++) {
+userinfo_tabs_link.eq(i).click(function () {
+userinfo_tabs_blog.hide().eq(i).show();
+});
+}
+userinfo_tabs_link.click(function () {
+userinfo_tabs_link.removeClass("userinfo_tabs_item").eq($(this).index()).addClass("userinfo_tabs_item");
+});
+
+
+/* default */
+
+userinfo_tabs_blog.eq(0).show();
+userinfo_tabs_link.eq(0).addClass("userinfo_tabs_item");
+
+/* default */
+})
