@@ -1,0 +1,823 @@
+$('.about__faq-blog-header').click((e) => {
+$('.about__faq-blog-header').not(e.target).next().slideUp();
+$(e.target).next().slideToggle();
+$(e.target).toggleClass('about__faq-blog-active');
+$('.about__faq-blog-header').not(e.target).removeClass('about__faq-blog-active');
+})
+
+$(document).ready(function() {
+//    start_all();
+var storageKey = 'blockVisibility';
+var oneDay = 24 * 60 * 60 * 1000;
+var isHidden = localStorage.getItem(storageKey) === 'hidden';
+if (isHidden) {
+$('.promocode_modal').hide();
+}
+$('.promo_close').click(function() {
+$('.promocode_modal').hide();
+localStorage.setItem(storageKey, 'hidden');
+setTimeout(function() {
+$('.promocode_modal').show();
+localStorage.removeItem(storageKey);
+}, oneDay);
+});
+});
+
+/* navs */
+$(document).ready(function () {
+var jet_nav_btn = $(".jet-nav-dropdown-btn")
+var jet_nav_dropdown =  $(".jet-nav-dropdown-menu")
+
+jet_nav_btn.click(function() {
+jet_nav_dropdown.toggleClass("dropdown-menu-avtive")
+});
+$(document).on('click', function(e) {
+if (!$(e.target).closest(".jet-nav-dropdown").length) {
+jet_nav_dropdown.removeClass("dropdown-menu-avtive")
+}
+e.stopPropagation();
+});
+$('.nav-dropdown-item').click(function(e) {
+jet_nav_dropdown.removeClass("dropdown-menu-avtive")
+});
+});
+
+
+$(document).ready(function () {
+$(".jet-nav-chat").click(function () { 
+$(".jet-nav-chat").toggleClass("d-block");
+$(".jet-right").toggleClass("jet_right_active");
+$(".jet-left").toggleClass("jet_left_w");
+$(".jet-main-left").toggleClass("jet_main_block");
+$(".jet-main-right").toggleClass("jet_main_right_w");
+$(".jet-main").toggleClass("jet_main_none");
+luckyJet._onResize();
+});
+$(".jet-right-header-btn").click(function () { 
+$(".jet-nav-chat").toggleClass("d-block");
+$(".jet-right").toggleClass("jet_right_active");
+$(".jet-left").toggleClass("jet_left_w");
+$(".jet-main-left").toggleClass("jet_main_block");
+$(".jet-main-right").toggleClass("jet_main_right_w");
+$(".jet-main").toggleClass("jet_main_none");
+luckyJet._onResize();
+});
+})
+
+$(window).scroll(function() {
+var block = $('.jet-main-animatsion');
+var blockOffset = block.offset().top; 
+var scrollTop = $(this).scrollTop(); 
+
+if (scrollTop >= blockOffset * 0.05) {
+block.addClass('animatsion_fixed');
+luckyJet._updateSizes();
+}
+else {
+block.removeClass('animatsion_fixed'); 
+luckyJet._onResize();
+} 
+if (!block.hasClass('animatsion_fixed')) {
+luckyJet._onResize();
+}
+});
+
+setInterval(function() {
+    luckyJet._updateSizes();
+}, 100);
+
+/* ....... */
+
+/* jet_main_tabs */
+
+$(document).ready(function () {
+var jet_main_tabs_item = $(".jet-main-tabs-item");
+var jet_main_blog = $(".jet-main-blog")
+
+for (let i = 0; i < jet_main_tabs_item.length; i++) {
+jet_main_tabs_item.eq(i).click(function () {
+jet_main_tabs_item.removeClass("jet-main-tabs-active").eq(i).addClass("jet-main-tabs-active");
+jet_main_blog.hide().eq(i).show();
+});
+}
+
+/* defold */
+jet_main_tabs_item.eq(0).addClass("jet-main-tabs-active")
+jet_main_blog.eq(0).show();
+
+/* defold */
+
+});
+
+/* ....... */
+
+/* input_text number */
+$(document).ready(function () {    
+$('.input_text').keypress(function (e) {    
+var charCode = (e.which) ? e.which : event.keyCode    
+if (String.fromCharCode(charCode).match(/[^0-9.]/g))    
+return false;                        
+});    
+}); 
+
+/* ....... */
+
+/* history */
+
+$(document).ready(function () {
+$(".jet-blog-header-history").click(function () { 
+$(".jet-blog-header-history").toggleClass("jet-blog-header-active");
+$(".jet-rates-list").toggleClass("rates-list-active");
+});
+})
+
+/* ....... */
+
+/* shoulder */
+
+$(document).ready(function () {
+$(".jet-main-shoulder-btn").click(function () { 
+$(".jet-main-shoulder").addClass("main-shoulder-active");
+});
+$(".jet-main-shoulder-header-btn").click(function () { 
+$(".jet-main-shoulder").removeClass("main-shoulder-active");
+});
+})
+
+/* ....... */
+
+/* rate__coin */
+$(document).ready(function() { 
+$('#rate__coin').change(function() {
+var rate__number = $('#rate__coin');
+var rate__val = parseFloat(this.value);
+
+rate__number.val(rate__val.toFixed(2));
+$('#rezult_repeat').html(rate__val.toFixed(2));
+
+
+rate__number.on('blur',function(){
+tmpval =  this.value;
+tmpval = isNaN(tmpval) ? '1.01' : tmpval;
+$(this).val(tmpval);
+
+
+if(tmpval <= 1) {
+rate__defold = 1.01;
+rate__number.val(rate__defold);
+}
+
+if(tmpval >= 100) {
+rate__defold = 100.00;
+rate__number.val(rate__defold.toFixed(2));
+$('#rezult_repeat').html(rate__defold.toFixed(2));
+}});
+
+});
+$('#rate__coin').on('input', function() {
+var rate__number = $('#rate__coin');
+$('#rezult_repeat').html(rate__number.val());
+})
+})
+
+/* ......... */
+/* rate2__coin */
+$(document).ready(function() { 
+$('#rate2__coin').change(function() {
+var rate__number = $('#rate2__coin');
+var rate__val = parseFloat(this.value);
+
+rate__number.val(rate__val.toFixed(2));
+$('#rezult2_repeat').html(rate__val.toFixed(2));
+
+
+rate__number.on('blur',function(){
+tmpval =  this.value;
+tmpval = isNaN(tmpval) ? '1.01' : tmpval;
+$(this).val(tmpval);
+
+if(tmpval <= 1) {
+rate__defold = 1.01;
+rate__number.val(rate__defold);
+}
+
+if(tmpval >= 100) {
+rate__defold = 100.00
+rate__number.val(rate__defold.toFixed(2))
+$('#rezult2_repeat').html(rate__defold.toFixed(2))
+}});
+
+});
+$('#rate2__coin').on('input', function() {
+var rate__number = $('#rate2__coin');
+$('#rezult2_repeat').html(rate__number.val());
+})
+})
+/* ......... */
+var fon_audio = $("#fon_audio")[0];
+var start_audio = $("#start_audio")[0];
+var end_audio = $("#finish_audio")[0];
+
+$(document).one("click", function() {
+$('#fon_audio').trigger('play');
+fon_audio.addEventListener("ended", function() {
+fon_audio.currentTime = 0;
+fon_audio.play();
+});    
+if ($(".jet-nav-music-btn").hasClass("jet-nav-active")) {
+fon_audio.pause();
+}
+});
+
+$(document).ready(function () {
+/* sound */
+$(".jet-nav-setting-btn").click(function () { 
+$(".jet-nav-setting-btn").toggleClass("jet-nav-active");
+if($(".jet-nav-setting-btn").hasClass("jet-nav-active")) {
+$("#sound_checkbox").prop( "checked", false );
+start_audio.pause();
+end_audio.pause();
+}
+else
+{ 
+$("#sound_checkbox").prop( "checked", true ); 
+}
+});
+
+$("#sound_checkbox").change(function() {
+if(this.checked) {
+$(".jet-nav-setting-btn").removeClass("jet-nav-active");
+}
+else
+{ 
+$(".jet-nav-setting-btn").addClass("jet-nav-active");
+start_audio.pause();
+end_audio.pause();  
+}
+});
+/* sound finsish */
+
+/* music */
+
+$(".jet-nav-music-btn").click(function () { 
+$(".jet-nav-music-btn").toggleClass("jet-nav-active");
+if($(".jet-nav-music-btn").hasClass("jet-nav-active")) {
+$("#music_checkbox").prop( "checked", false );
+fon_audio.pause(); 
+}
+else
+{ 
+$("#music_checkbox").prop( "checked", true );
+fon_audio.play(); 
+}
+});
+
+$("#music_checkbox").change(function() {
+if(this.checked) {
+$(".jet-nav-music-btn").removeClass("jet-nav-active");
+fon_audio.play(); 
+}
+else
+{ 
+$(".jet-nav-music-btn").addClass("jet-nav-active");  
+fon_audio.pause();
+}
+});
+
+
+
+/* music finsish */
+
+
+$("#animation_checkbox").change(function() {
+if(this.checked) {
+$(".jet-main-schedule").removeClass("schedule-animation-none");
+luckyJet._onResize();
+}
+else
+{ 
+$(".jet-main-schedule").addClass("schedule-animation-none");  
+luckyJet._onResize();
+}
+});
+})
+
+
+/* СТАВКА 1 */
+$(document).ready(function () {
+$("#check_rate1_coin").change(function() {
+if(this.checked) {
+$(".rate_coin_add").addClass("rate_coin_none");
+}
+else
+{
+$(".rate_coin_add").removeClass("rate_coin_none");
+}
+});
+
+$("#check_rate2_coin").change(function() {
+if(this.checked) {
+$("#rate__coin_pointer").addClass("rate-coin-auto");
+}
+else
+{
+$("#rate__coin_pointer").removeClass("rate-coin-auto");
+}
+});
+
+})
+/* ..... */
+
+/* СТАВКА 2 */
+$(document).ready(function () {
+$("#check2_rate1_coin").change(function() {
+if(this.checked) {
+$(".rate_coin_add2").addClass("rate_coin_none");
+}
+else
+{
+$(".rate_coin_add2").removeClass("rate_coin_none");
+}
+});
+
+$("#check2_rate2_coin").change(function() {
+if(this.checked) {
+$("#rate2__coin_pointer").addClass("rate-coin-auto");
+}
+else
+{
+$("#rate2__coin_pointer").removeClass("rate-coin-auto");
+}
+});
+
+})
+/* ..... */
+
+
+$(document).ready(function () {
+$('#rate_amount_amount').on('input', function() {
+var rate_amount = $('#rate_amount_amount');
+
+$('#rate_amount_amount_repeat').html(rate_amount.val());
+
+rate_amount.on('blur',function(){
+tmpval_amount =  this.value;
+
+if(tmpval_amount <= 0) {
+tmpval_amount__defold = 50
+rate_amount.val(tmpval_amount__defold)
+$('#rate_amount_amount_repeat').html(tmpval_amount__defold)
+}
+
+if(tmpval_amount <= 50) {
+tmpval_amount__defold = 50
+rate_amount.val(tmpval_amount__defold)
+$('#rate_amount_amount_repeat').html(tmpval_amount__defold)
+}
+
+if(tmpval_amount === '') {
+tmpval_amount__defold = 50
+rate_amount.val(tmpval_amount__defold)
+$('#rate_amount_amount_repeat').html(tmpval_amount__defold)
+} 
+
+if(tmpval_amount >= 99000) {
+tmpval_amount__defold = 500
+rate_amount.val(tmpval_amount__defold)
+$('#rate_amount_amount_repeat').html(tmpval_amount__defold)
+}});
+
+});
+
+// AMOUNT 
+const amount = 99000
+var prosent_input = [50, 100, 200, 500]
+// PRISE
+const rate = 1;
+
+let rate1Common = Number(rate);
+$('#rate1-button-minus').click(function(event) {
+let $input = $('#rate_amount_amount');
+if ($input.val() > 10) {
+$input.val(+$input.val() - 1);
+let num = Number($input.val());
+results = (num) * rate1Common;
+results = results;
+$("#rate_amount_amount_repeat").html(results);
+}
+});
+
+$('#rate1-button-plus').click(function(event) {
+let $input = $('#rate_amount_amount');
+let num = Number($input.val());
+if (num < amount) {
+num = num + 1;
+$input.val(+$input.val() + 1);
+results = (num) * rate1Common;
+results = results;
+$("#rate_amount_amount_repeat").html(results);
+}
+});
+
+var summ_prosent_item = $(".rate1-item-col");
+var user_summ = $("#rate_amount_amount")
+
+for (let i = 0; i < summ_prosent_item.length; i++) {
+summ_prosent_item.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+$("#rate_amount_amount_repeat").html(prosent_input[i]);
+});
+}
+
+})
+ 
+$(document).ready(function () {
+$('#rate2_amount_amount').on('input', function() {
+var rate_amount = $('#rate2_amount_amount');
+
+$('#rate2_amount_amount_repeat').html(rate_amount.val());
+
+rate_amount.on('blur',function(){
+tmpval_amount =  this.value;
+
+if(tmpval_amount <= 0) {
+tmpval_amount__defold = 50
+rate_amount.val(tmpval_amount__defold)
+$('#rate2_amount_amount_repeat').html(tmpval_amount__defold)
+}
+
+if(tmpval_amount <= 50) {
+tmpval_amount__defold = 50
+rate_amount.val(tmpval_amount__defold)
+$('#rate2_amount_amount_repeat').html(tmpval_amount__defold)
+}
+
+
+if(tmpval_amount === '') {
+tmpval_amount__defold = 50
+rate_amount.val(tmpval_amount__defold)
+$('#rate2_amount_amount_repeat').html(tmpval_amount__defold)
+} 
+
+if(tmpval_amount >= 99000) {
+tmpval_amount__defold = 500
+rate_amount.val(tmpval_amount__defold)
+$('#rate2_amount_amount_repeat').html(tmpval_amount__defold)
+}});
+
+});
+
+// AMOUNT 
+const amount = 99000
+var prosent_input = [50, 100, 200, 500]
+// PRISE
+const rate = 1;
+
+let rate1Common = Number(rate);
+$('#rate2-button-minus').click(function(event) {
+let $input = $('#rate2_amount_amount');
+if ($input.val() > 10) {
+$input.val(+$input.val() - 1);
+let num = Number($input.val());
+results = (num) * rate1Common;
+results = results;
+$("#rate2_amount_amount_repeat").html(results);
+}
+});
+
+$('#rate2-button-plus').click(function(event) {
+let $input = $('#rate2_amount_amount');
+let num = Number($input.val());
+if (num < amount) {
+num = num + 1;
+$input.val(+$input.val() + 1);
+results = (num) * rate1Common;
+results = results;
+$("#rate2_amount_amount_repeat").html(results);
+}
+});
+
+var summ_prosent_item = $(".rate2-item-col");
+var user_summ = $("#rate2_amount_amount")
+
+for (let i = 0; i < summ_prosent_item.length; i++) {
+summ_prosent_item.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+$("#rate2_amount_amount_repeat").html(prosent_input[i]);
+});
+}
+
+/* temporary */
+
+var rate2_btn = $("#rate2_btn");
+var temporary_id2 = $("#temporary_id2")
+
+rate2_btn.click(function () {
+$("#temporary_id").addClass("d-none")
+$(".jet-rate-item-button2").addClass("d-block")
+});
+
+temporary_id2.click(function () {
+$('.jet-coin-take').addClass('jet-coin-take-active');
+
+});
+setTimeout(function() {
+$('.jet-coin-take').removeClass('jet-coin-take-active');
+}, 5000);
+/* ........ */
+})
+
+
+
+$("#eye_passrowd").on('click', function() {
+let input = $( this ).siblings('#password')
+
+if (input.attr("type") === "password") {
+input.attr("type", "text");
+$("#eye_passrowd").addClass("eye-active")
+}
+else {
+input.attr("type", "password");
+$("#eye_passrowd").removeClass("eye-active")
+}
+});	
+
+$("#eye_passrowd1").on('click', function() {
+let input = $( this ).siblings('#password1')
+
+if (input.attr("type") === "password") {
+input.attr("type", "text");
+$("#eye_passrowd1").addClass("eye-active")
+}
+else {
+input.attr("type", "password");
+$("#eye_passrowd1").removeClass("eye-active")
+}
+});	
+
+$("#eye_passrowd2").on('click', function() {
+let input = $( this ).siblings('#password2')
+
+if (input.attr("type") === "password") {
+input.attr("type", "text");
+$("#eye_passrowd2").addClass("eye-active")
+}
+else {
+input.attr("type", "password");
+$("#eye_passrowd2").removeClass("eye-active")
+}
+});	
+
+$("#newpass_blog").on('click', function() {
+
+$("#comein_blog").addClass("d-none")
+$("#newpassword_blog").addClass("d-block")
+
+});	
+
+$(".comein-form-next").on('click', function() {
+
+$("#comein_blog").removeClass("d-none")
+$("#newpassword_blog").removeClass("d-block")
+
+});	
+
+
+$(document).ready(function(e) {
+
+$('#chat_input').emojiPicker({
+width: '262px',
+height: '360px',
+button: false,
+});
+
+$('.jet-message-emoji').click(function(e) {
+e.preventDefault();
+closeEmoji()
+});
+
+$('.emodji_header_icon').click(function(e) {
+e.preventDefault();
+closeEmoji()
+});
+
+$('.emodji_list .recent .wrap').click(function(e) {
+e.preventDefault();
+closeEmoji()
+});
+
+$('section em').click(function(e) {
+e.preventDefault();
+closeEmoji()
+});
+
+function closeEmoji(e) {
+$('#chat_input').emojiPicker('toggle');
+$('.emodji_list').animate({
+scrollTop: 0
+}, 0);
+}
+})
+
+/* Сид checkbox */
+$(document).ready(function() {
+
+if (localStorage.getItem('clients_sid_checkbox') === 'false') {
+$('#clients_sid_checkbox').prop('checked', false);
+$('#clients_sid_checkbox2').prop('checked', true);
+$("#sid_checkbox1").removeClass("clients_checkbox_active");
+$("#sid_checkbox2").addClass("clients_checkbox_active");
+$(".clients_btn").removeClass("btn_disabled");
+} else {
+$('#clients_sid_checkbox').prop('checked', true);
+$('#clients_sid_checkbox2').prop('checked', false);
+$("#sid_checkbox1").addClass("clients_checkbox_active");
+$("#sid_checkbox2").removeClass("clients_checkbox_active");
+$(".clients_btn").addClass("btn_disabled");
+}
+  
+
+$('#clients_sid_checkbox').change(function() {
+if ($(this).prop('checked')) {
+localStorage.setItem('clients_sid_checkbox', 'true');
+$('#clients_sid_checkbox2').prop('checked', false);
+$("#sid_checkbox1").addClass("clients_checkbox_active");
+$("#sid_checkbox2").removeClass("clients_checkbox_active");
+$(".clients_btn").addClass("btn_disabled");
+} else {
+$('#clients_sid_checkbox').prop('checked', true);
+}
+});
+  
+$('#clients_sid_checkbox2').change(function() {
+if ($(this).prop('checked')) {
+localStorage.setItem('clients_sid_checkbox', 'false');
+$('#clients_sid_checkbox').prop('checked', false);
+$("#sid_checkbox1").removeClass("clients_checkbox_active");
+$("#sid_checkbox2").addClass("clients_checkbox_active");
+$(".clients_btn").removeClass("btn_disabled");
+} else {
+$('#clients_sid_checkbox2').prop('checked', true);
+}
+});
+});
+
+
+
+/* Сид checkbox finish */
+
+/* reflink */
+
+function reflink(el) {
+var $tmpt = $("<textarea>");
+$("body").append($tmpt);
+$tmpt.val($(el).text()).select();
+document.execCommand("copy");
+$tmpt.remove();
+alert('Cсылка cахраненно в буфер обмена!');
+}
+
+/* reflink finished */
+
+$(document).ready(function() {
+var sid = generateSid();
+$('#clients_sid').val(sid);
+    
+$('.btn_random').click(function() {
+sid = generateSid();
+$('#clients_sid').val(sid);
+$('.btn_save').removeClass("btn_save_disabled");
+});
+
+$("#clients_sid").on('input', function(){
+if ($('#clients_sid').val().length === 0) {
+$('.btn_save').addClass("btn_save_disabled")
+}else(
+$('.btn_save').removeClass("btn_save_disabled")
+)    
+})
+
+$(".btn_close").on('input', function(){
+$('.clients_sid_modal_child').removeClass("sid_modal_active")
+})
+
+function generateSid() {
+var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_';
+var sid = '';
+for (var i = 0; i < 20; i++) {
+var randomIndex = Math.floor(Math.random() * chars.length);
+sid += chars[randomIndex];
+}
+return sid;
+}
+});
+
+$(document).ready(function() {
+$("#bonus_input").on('input', function(){
+if ($('#bonus_input').val().length === 0) {
+$('#add_bonus_btn').addClass("add_bonus_disabled")
+}else(
+$('#add_bonus_btn').removeClass("add_bonus_disabled")
+)    
+})
+$('#add_bonus_btn').addClass("add_bonus_disabled")
+});
+
+$('.delete_close').click(function() {
+$(".delete_wallet_modal").modal('hide');
+});
+
+$(".error_content_close").click(function() {
+$(".error").css('display', "none");
+});
+
+$(".balance_info_video").on("click", function(){
+$('#balance_info_video')[0].play();
+});
+
+$(document).ready(function() {
+// Находим поле ввода и кнопку
+var input_f = $('#f_requisites__amount');
+var button_f = $('#f_requisites_btn');
+var error_f = $("#error_requisites_f");
+
+// Устанавливаем кнопку в disabled при загрузке страницы
+button_f.prop('disabled', true);
+button_f.css('opacity', "0.5");
+error_f.html("");
+// поле ввода при изменении его значения
+input_f.on('input', function() {
+var inputValue = input_f.val();
+if (/^[a-zA-Z0-9+]+$/.test(inputValue)) {
+button_f.prop('disabled', false);
+button_f.css('opacity', "1");
+error_f.html("");
+}
+else if (input_f.val() !== "/^[А-Яа-я/'^�$%&*()}{@#~?><>,.|=_+�-]+$/") {
+button_f.prop('disabled', true);
+button_f.css('opacity', "0.5");
+error_f.html("Нельзя вводить русские буквы, символы и пробел");
+}
+else if (input_f.val() !== '') {
+button_f.prop('disabled', false);
+button_f.css('opacity', "1");
+error_f.html("");
+}
+else {
+button_f.prop('disabled', true);
+button_f.css('opacity', "0.5");
+error_f.html("");
+}
+});
+});
+
+
+$(document).ready(function() {
+// Находим поле ввода и кнопку
+var input_с = $('#c_requisites__amount');
+var button_с = $('#c_requisites_btn');
+var error_с = $("#error_requisites_c");
+
+// Устанавливаем кнопку в disabled при загрузке страницы
+button_с.prop('disabled', true);
+button_с.css('opacity', "0.5");
+error_с.html("");
+// поле ввода при изменении его значения
+input_с.on('input', function() {
+var inputValue = input_с.val();
+if (/^[a-zA-Z0-9+]+$/.test(inputValue)) {
+button_с.prop('disabled', false);
+button_с.css('opacity', "1");
+error_с.html("");
+}
+else if (input_с.val() !== "/^[А-Яа-я/'^�$%&*()}{@#~?><>,.|=_+�-]+$/") {
+button_с.prop('disabled', true);
+button_с.css('opacity', "0.5");
+error_с.html("Нельзя вводить русские буквы, символы и пробел");
+}
+else if (input_с.val() !== '') {
+button_с.prop('disabled', false);
+button_с.css('opacity', "1");
+error_с.html("");
+}
+else {
+button_с.prop('disabled', true);
+button_с.css('opacity', "0.5");
+error_с.html("");
+}
+});
+});
+
+
+$(".tg_close").click(function () { 
+var tg_show_block  = $('.tg_show');
+tg_show_block.css('display', "none");  
+});
+
+$(".new_tg_close").click(function () { 
+var tg_show_block  = $('.new_tg');
+tg_show_block.css('display', "none");  
+});
+
+
+
