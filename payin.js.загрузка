@@ -1,0 +1,234 @@
+
+$(document).ready(function () {
+var payin_tabs_link = $(".payin_tabs");
+var payin_tabs_blog = $(".payin_blog");
+var payin__jet_main_blog = $(".payin_main_blog");
+var user_summ = $("#f_payin__amount");
+var coin = $("#f_coin__id").val();
+var c_coin = $("#c_coin__id").val();
+
+
+for (let i = 0; i < payin_tabs_link.length; i++) {
+payin_tabs_link.eq(i).click(function () {
+payin_tabs_blog.hide().eq(i).show();
+payin__jet_main_blog.hide().eq(i).show();
+user_summ.val("");
+$("#c_payin__amount").val("");
+});
+}
+payin_tabs_link.click(function () {
+payin_tabs_link.removeClass("wallet__jet-tabs-active").eq($(this).index()).addClass("wallet__jet-tabs-active");
+
+});
+
+
+/* default */
+
+payin_tabs_blog.eq(0).show();
+payin__jet_main_blog.eq(0).show();
+payin_tabs_link.eq(0).addClass("wallet__jet-tabs-active");
+
+/* default */
+})
+
+
+$(document).ready(function () {
+var payin_coin_link = $(".f-coin");
+var payin_alt = $(".f-coin-img img")
+var payin_rezult = $("#f_coin__id")
+var f_blog_img = $(".f-blog-img img")
+var summ_prosent_item = $(".f-blog-item");
+
+for (let i = 0; i < payin_coin_link.length; i++) {
+payin_coin_link.eq(i).click(function () {
+
+result = payin_alt[i].alt;
+result_title = payin_alt[i].title;
+payin_rezult.attr('value', result);
+f_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+user_summ.val("");
+});
+}
+
+
+payin_coin_link.click(function () {
+payin_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+
+});
+
+/* default */
+defold_rezult = payin_alt[0].alt;
+defold_rezult_title = payin_alt[0].title;
+payin_coin_link.eq(0).addClass("coin-active");
+payin_rezult.attr('value', defold_rezult);
+f_blog_img.attr('src', "/templates/Default/images/pay/" + defold_rezult_title);
+summ_prosent_item.eq(4).hide();
+/* default */
+
+var summ_prosent_item = $(".f-blog-item");
+var user_summ = $("#f_payin__amount");
+var prosent_input = [1000, 2000, 3000, 4000, 5000, 10000]
+
+for (let i = 0; i < summ_prosent_item.length; i++) {
+summ_prosent_item.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+
+coin = $("#f_coin__id").val();
+});
+}
+})
+
+$(document).ready(function () {
+var payin_coin_link = $(".c-coin");
+var payin_alt = $(".c-coin-img img")
+var payin_rezult = $("#c_coin__id")
+var c_blog_img = $(".c-blog-img img")
+var payin_img_c = $(".payin_img_c")
+
+for (let i = 0; i < payin_coin_link.length; i++) {
+payin_coin_link.eq(i).click(function () {
+
+result = payin_alt[i].alt;
+result_title = payin_alt[i].title;
+payin_rezult.attr('value', result);
+c_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+payin_img_c.attr('src', "/templates/Default/images/pay/" + result_title);
+user_summ.val("");
+});
+}
+payin_coin_link.click(function () {
+payin_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+
+});
+
+/* default */
+defold_rezult = payin_alt[0].alt;
+defold_rezult_title = payin_alt[0].title;
+payin_coin_link.eq(0).addClass("coin-active");
+payin_rezult.attr('value', defold_rezult);
+c_blog_img.attr('src', "/templates/Default/images/pay/" + defold_rezult_title)
+payin_img_c.attr('src', "/templates/Default/images/pay/" + defold_rezult_title);
+/* default */
+
+var summ_prosent_item = $(".c-blog-item");
+var user_summ = $("#c_payin__amount")
+var prosent_input = [1000, 2000, 5000, 10000, 20000]
+c_coin = $("#c_coin__id").val();
+
+for (let i = 0; i < summ_prosent_item.length; i++) {
+summ_prosent_item.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+
+});
+}
+});
+
+
+
+$(document).ready(function () {
+var payin_coin_link = $(".k-coin");
+var payin_alt = $(".k-coin-img img")
+var payin_rezult = $("#k_coin__id")
+var k_blog_img = $(".k-blog-img img")
+
+payin_coin_link.click(function () {
+payin_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+});
+
+payin_coin_link.eq(0).addClass("coin-active");
+payin_rezult.attr('value', payin_alt[0].alt);
+k_blog_img.attr('src', "/templates/Default/images/pay/" + payin_alt[0].title);
+
+for (let i = 0; i < payin_coin_link.length; i++) {
+payin_coin_link.eq(i).click(function () {
+
+result = payin_alt[i].alt;
+result_title = payin_alt[i].title;
+payin_rezult.attr('value', result);
+k_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+
+});
+};
+});
+
+
+
+
+
+$(document).ready(function () {
+var payin_coin_link = $(".u-coin");
+var payin_alt = $(".u-coin-img img")
+var payin_rezult = $("#u_coin__id")
+var k_blog_img = $(".u-blog-img img")
+
+payin_coin_link.click(function () {
+payin_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+});
+
+payin_coin_link.eq(0).addClass("coin-active");
+payin_rezult.attr('value', payin_alt[0].alt);
+k_blog_img.attr('src', "/templates/Default/images/pay/" + payin_alt[0].title);
+
+for (let i = 0; i < payin_coin_link.length; i++) {
+payin_coin_link.eq(i).click(function () {
+
+result = payin_alt[i].alt;
+result_title = payin_alt[i].title;
+payin_rezult.attr('value', result);
+k_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+
+});
+};
+
+});
+
+
+
+$(document).ready(function () {
+var payin_coin_link = $(".uz-coin");
+var payin_alt = $(".uz-coin-img img")
+var payin_rezult = $("#uz_coin__id")
+var k_blog_img = $(".uz-blog-img img")
+
+payin_coin_link.click(function () {
+payin_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+});
+
+payin_coin_link.eq(0).addClass("coin-active");
+payin_rezult.attr('value', payin_alt[0].alt);
+k_blog_img.attr('src', "/templates/Default/images/pay/" + payin_alt[0].title);
+
+for (let i = 0; i < payin_coin_link.length; i++) {
+payin_coin_link.eq(i).click(function () {
+
+result = payin_alt[i].alt;
+result_title = payin_alt[i].title;
+payin_rezult.attr('value', result);
+k_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+
+});
+};
+
+});
+
+
+
+
+
+
+
+
+
+
+
+

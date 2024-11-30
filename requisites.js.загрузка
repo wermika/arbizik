@@ -1,0 +1,146 @@
+/* requisites_tabs */
+function requisitesTabs(requisitesTabs) {
+var siblings = requisitesTabs.siblings();
+siblings.each(function () {
+$(this).removeClass('wallet__jet-tabs-active');
+})
+requisitesTabs.addClass('wallet__jet-tabs-active');}
+
+$(document).ready(function () {
+
+
+var requisites_tabs_link = $(".requisites_tabs");
+var requisites_tabs_blog = $(".requisites_blog");
+var requisites__jet_main_blog = $(".requisites_main_blog");
+
+/* defold */
+requisites_tabs_blog.eq(0).show();
+requisites__jet_main_blog.eq(0).show();
+requisites_tabs_link.eq(0).show().addClass("wallet__jet-tabs-active");
+/* defold */
+
+if (localStorage) {
+var ind = localStorage['requisitesTabs']
+requisitesTabs(requisites_tabs_link.eq(ind));
+if (requisites_tabs_link.eq(ind).hasClass('wallet__jet-tabs-active')) {
+requisites_tabs_blog.hide().eq(ind).show();
+requisites__jet_main_blog.hide().eq(ind).show();
+}}
+
+requisites_tabs_link.click(function () {
+requisites_tabs_link.removeClass("wallet__jet-tabs-active").eq(
+$(this).index()
+).addClass("wallet__jet-tabs-active");
+requisites_tabs_blog.hide().eq(
+$(this).index()).show();
+requisites__jet_main_blog.hide().eq(
+    $(this).index()).show();
+if (localStorage) {
+localStorage['requisitesTabs'] = $(this).index();
+}
+requisitesTabs($(this));
+});
+
+})
+/* requisites_tabs finish */
+
+$(document).ready(function () {
+var requisites_coin_link = $(".requisites_f_coin");
+var requisites_alt = $(".requisites_f_coin_img img")
+var requisites_rezult = $("#requisites_f_coin__id")
+var f_blog_img = $(".requisites_f_blog_img img")
+var summ_prosent_item = $(".requisites_f_blog_item");
+
+for (let i = 0; i < requisites_coin_link.length; i++) {
+requisites_coin_link.eq(i).click(function () {
+
+result = requisites_alt[i].alt;
+result_title = requisites_alt[i].title;
+requisites_rezult.attr('value', result);
+f_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+user_summ.val("");
+});
+}
+requisites_coin_link.click(function () {
+    requisites_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+summ_prosent_item.eq(0).show();
+summ_prosent_item.eq(1).show();
+});
+
+requisites_coin_link.eq(0).click(function () {
+summ_prosent_item.eq(0).hide();
+summ_prosent_item.eq(1).hide();
+});
+
+requisites_coin_link.eq(1).click(function () {
+summ_prosent_item.eq(0).hide();
+summ_prosent_item.eq(1).hide();
+});
+
+/* default */
+defold_rezult = requisites_alt[0].alt;
+defold_rezult_title = requisites_alt[0].title;
+requisites_coin_link.eq(0).addClass("coin-active");
+requisites_rezult.attr('value', defold_rezult);
+f_blog_img.attr('src', "/templates/Default/images/pay/" + defold_rezult_title);
+
+/* default */
+
+var summ_prosent_item = $(".requisites_f_blog_item");
+var user_summ = $("#f_requisites__amount");
+var prosent_input = [75, 250, 1000, 5000, 10000]
+
+for (let i = 0; i < summ_prosent_item.length; i++) {
+summ_prosent_item.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+});
+}
+})
+
+$(document).ready(function () {
+var requisites_coin_link = $(".requisites_c_coin");
+var requisites_alt = $(".requisites_c_coin img")
+var requisites_rezult = $("#requisites_c_coin__id")
+var c_blog_img = $(".requisites_c_blog_img img")
+var requisites_img_c = $(".requisites_img_c")
+
+for (let i = 0; i < requisites_coin_link.length; i++) {
+    requisites_coin_link.eq(i).click(function () {
+
+result = requisites_alt[i].alt;
+result_title = requisites_alt[i].title;
+requisites_rezult.attr('value', result);
+c_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+requisites_img_c.attr('src', "/templates/Default/images/pay/" + result_title);
+user_summ.val("");
+});
+}
+requisites_coin_link.click(function () {
+    requisites_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+
+});
+
+/* default */
+defold_rezult = requisites_alt[0].alt;
+defold_rezult_title = requisites_alt[0].title;
+requisites_coin_link.eq(0).addClass("coin-active");
+requisites_rezult.attr('value', defold_rezult);
+c_blog_img.attr('src', "/templates/Default/images/pay/" + defold_rezult_title)
+requisites_img_c.attr('src', "/templates/Default/images/pay/" + defold_rezult_title);
+/* default */
+
+var summ_prosent_item = $(".requisites_c_blog_item");
+var user_summ = $("#c_requisites__amount")
+var prosent_input = [1000, 2000, 5000, 10000, 20000]
+
+for (let i = 0; i < summ_prosent_item.length; i++) {
+summ_prosent_item.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+});
+}
+})
+

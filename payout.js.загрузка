@@ -1,0 +1,285 @@
+
+$(document).ready(function () {
+var payout_tabs_link = $(".payout_tabs");
+var payout_tabs_blog = $(".payout_blog");
+var payout__jet_main_blog = $(".payout_main_blog")
+var user_summ = $("#f_payout__amount");
+
+for (let i = 0; i < payout_tabs_link.length; i++) {
+payout_tabs_link.eq(i).click(function () {
+payout_tabs_blog.hide().eq(i).show();
+payout__jet_main_blog.hide().eq(i).show();
+user_summ.val("");
+
+$("#fout_sum").html("0.00"); 
+$("#fout_com").html("0.00");  
+$("#fout_total").html("0.00");  
+
+$("#c_out_sum").html("0.00");   
+$("#c_out_com").html("0.00");    
+$("#c_out_total").html("0.00"); 
+
+});
+}
+payout_tabs_link.click(function () {
+payout_tabs_link.removeClass("wallet__jet-tabs-active").eq($(this).index()).addClass("wallet__jet-tabs-active");
+
+});
+
+
+/* default */
+
+payout_tabs_blog.eq(0).show();
+payout__jet_main_blog.eq(0).show();
+payout_tabs_link.eq(0).addClass("wallet__jet-tabs-active");
+
+/* default */
+})
+
+
+$(document).ready(function () {
+var payout_coin_link = $(".payout_f_coin");
+var payout_alt = $(".payout_f_coin_img img")
+var payout_rezult = $("#payout_f_coin__id")
+var f_blog_img = $(".payout_f_blog_img img")
+var summ_prosent_item_put = $(".payout_f_item");
+var user_summ = $("#f_payout__amount")
+for (let i = 0; i < payout_coin_link.length; i++) {
+payout_coin_link.eq(i).click(function () {
+
+result = payout_alt[i].alt;
+result_title = payout_alt[i].title;
+payout_rezult.attr('value', result);
+f_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+user_summ.val("");
+
+$("#fout_sum").html("0.00"); 
+$("#fout_com").html("0.00");  
+$("#fout_total").html("0.00");  
+
+
+$.ajax({
+type: "POST",
+dataType: "json",
+url: "../engine/ajax/fwallet.php",
+data: {
+coin: result
+},
+success: function(result){
+$("#fwallet").html(result['fwallet']);  
+}
+});
+
+
+});
+}
+payout_coin_link.click(function () {
+payout_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+summ_prosent_item_put.eq(0).show();
+summ_prosent_item_put.eq(1).show();
+user_summ.attr("min", '500');
+user_summ.attr("max", '60000');
+summ_prosent_item_put.eq(3).hide();
+summ_prosent_item_put.eq(4).hide();
+});
+
+payout_coin_link.eq(0).click(function () {
+summ_prosent_item_put.eq(0).show();
+summ_prosent_item_put.eq(1).show();
+summ_prosent_item_put.eq(3).hide();
+summ_prosent_item_put.eq(4).hide();
+});
+
+payout_coin_link.eq(1).click(function () {
+summ_prosent_item_put.eq(0).hide();
+summ_prosent_item_put.eq(1).hide();
+summ_prosent_item_put.eq(3).show();
+summ_prosent_item_put.eq(4).show();
+user_summ.attr("min", '2000');
+user_summ.attr("max", '150000');
+});
+
+/* default */
+defold_rezult = payout_alt[0].alt;
+defold_rezult_title = payout_alt[0].title;
+payout_coin_link.eq(0).addClass("coin-active");
+payout_rezult.attr('value', defold_rezult);
+f_blog_img.attr('src', "/templates/Default/images/pay/" + defold_rezult_title);
+summ_prosent_item_put.eq(3).hide();
+summ_prosent_item_put.eq(4).hide();
+/* default */
+
+
+var prosent_input = [500, 1000, 2000, 3000, 4000, 5000, 10000]
+
+for (let i = 0; i < summ_prosent_item_put.length; i++) {
+    summ_prosent_item_put.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+
+$.ajax({
+type: "POST",
+dataType: "json",
+url: "../engine/ajax/fiatouttotal.php",
+data: {
+fsum: prosent_input[i],
+coin: coin
+},
+success: function(result){
+$("#fout_sum").html(result['fiatsum']);  
+$("#fout_com").html(result['fiatcommission']);    
+$("#fout_total").html(result['fiattotal']);  
+}
+});
+
+
+
+
+});
+}
+})
+
+$(document).ready(function () {
+var payout_coin_link = $(".payout_c_coin");
+var payout_alt = $(".payout_c_coin_img img")
+var payout_rezult = $("#payout_c_coin__id")
+var c_blog_img = $(".payout_c_blog_img img")
+var payout_img_c = $(".payout_img_c")
+
+for (let i = 0; i < payout_coin_link.length; i++) {
+payout_coin_link.eq(i).click(function () {
+
+result = payout_alt[i].alt;
+result_title = payout_alt[i].title;
+payout_rezult.attr('value', result);
+c_blog_img.attr('src', "/templates/Default/images/pay/" + result_title);
+payout_img_c.attr('src', "/templates/Default/images/pay/" + result_title);
+user_summ.val("");
+$("#c_out_sum").html("0.00");   
+$("#c_out_com").html("0.00");    
+$("#c_out_total").html("0.00"); 
+
+$.ajax({
+type: "POST",
+dataType: "json",
+url: "../engine/ajax/fwallet.php",
+data: {
+coin: result
+},
+success: function(result){
+$("#cwallet").html(result['fwallet']);  
+}
+});
+
+
+});
+}
+payout_coin_link.click(function () {
+    payout_coin_link.removeClass("coin-active").eq(
+$(this).index()
+).addClass("coin-active");
+
+});
+
+/* default */
+defold_rezult = payout_alt[0].alt;
+defold_rezult_title = payout_alt[0].title;
+payout_coin_link.eq(0).addClass("coin-active");
+payout_rezult.attr('value', defold_rezult);
+c_blog_img.attr('src', "/templates/Default/images/pay/" + defold_rezult_title)
+payout_img_c.attr('src', "/templates/Default/images/pay/" + defold_rezult_title);
+/* default */
+
+var summ_prosent_item_put = $(".payout_c_item");
+var user_summ = $("#c_payout__amount")
+var prosent_input = [1000, 2000, 5000, 10000, 20000]
+
+for (let i = 0; i < summ_prosent_item_put.length; i++) {
+    summ_prosent_item_put.eq(i).click(function () {
+user_summ.val(prosent_input[i]);
+
+$.ajax({
+type: "POST",
+dataType: "json",
+url: "../engine/ajax/criptoouttotal.php",
+data: {
+c_sum: prosent_input[i],
+c_coin: c_coin
+},
+success: function(result){
+$("#c_out_sum").html(result['criptosum']);  
+$("#c_out_com").html(result['criptocommission']);    
+$("#c_out_total").html(result['criptototal']);  
+}
+}); 
+
+
+});
+}
+});
+
+
+$('#f_payout__amount').on('input', function() {
+var fsum = $("#f_payout__amount").val();
+coin = $("#payout_f_coin__id").val();
+
+if(fsum.length > 1)
+{
+
+$.ajax({
+type: "POST",
+dataType: "json",
+url: "../engine/ajax/fiatouttotal.php",
+data: {
+fsum: fsum,
+coin: coin
+},
+success: function(result){
+$("#fout_sum").html(result['fiatsum']);  
+$("#fout_com").html(result['fiatcommission']);    
+$("#fout_total").html(result['fiattotal']);  
+}
+}); 
+}
+else
+{
+$("#fout_sum").html("0.00"); 
+$("#fout_com").html("0.00");  
+$("#fout_total").html("0.00");   
+}
+});
+
+
+
+
+$('#c_payout__amount').on('input', function() {
+var c_sum = $("#c_payout__amount").val();
+c_coin = $("#payout_c_coin__id").val();
+
+if(c_sum.length > 1)
+{
+
+$.ajax({
+type: "POST",
+dataType: "json",
+url: "../engine/ajax/criptoouttotal.php",
+data: {
+c_sum: c_sum,
+c_coin: c_coin
+},
+success: function(result){
+$("#c_out_sum").html(result['criptosum']);  
+$("#c_out_com").html(result['criptocommission']);    
+$("#c_out_total").html(result['criptototal']);  
+}
+}); 
+
+}
+else
+{
+$("#c_out_sum").html("0.00");   
+$("#c_out_com").html("0.00");    
+$("#c_out_total").html("0.00");     
+}
+});
