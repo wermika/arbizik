@@ -1,0 +1,22 @@
+
+$(document).ready(function () {
+var history_tabs_link = $(".history_tabs");
+var history_tabs_blog = $(".history_blog");
+
+for (let i = 0; i < history_tabs_link.length; i++) {
+history_tabs_link.eq(i).click(function () {
+history_tabs_blog.hide().eq(i).show();
+
+});
+}
+history_tabs_link.click(function () {
+history_tabs_link.removeClass("wallet__jet-tabs-active").eq($(this).index()).addClass("wallet__jet-tabs-active");
+
+});
+
+
+/* default */
+history_tabs_blog.eq(0).show();
+history_tabs_link.eq(0).addClass("wallet__jet-tabs-active");
+/* default */
+})
